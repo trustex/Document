@@ -46,31 +46,33 @@
 #
 #
 # 七、Forked 项目说明
-#### 1. [node-林鑫-前端、VUE](https://github.com/trustex/blog) 
-#### 2. [node-CS-Notes-计算机基础知识](https://github.com/trustex/CS-Notes) 
-#### 3. [node-通用技术-全面](https://github.com/trustex/noteBook) 
-#### 1. [node-KnowledgeNotes-Linux、Java相关](https://github.com/trustex/KnowledgeNotes) 
-#### 5. [node-knowledgeNote-Linux运维](https://github.com/trustex/knowledgeNote) 
-#### 4. [node-AndroidNote-Android笔记](https://github.com/trustex/AndroidNote) 
-#### 7. [node-AndroidNote1-Android笔记](https://github.com/trustex/AndroidNote-1) 
-#### 7. [node-AndroidNote2-Android笔记](https://github.com/trustex/AndroidNote-2) 
-#### 10. [node-LearningNotes-Android笔记](https://github.com/trustex/LearningNotes) 
-#### 6. [node-front-end-note-前端、VUE等](https://github.com/trustex/front-end-note) 
-#### 8. [node-JS笔记](https://github.com/trustex/zhubangbang-javascript-notes) 
-#### 11. [node-notepad](https://github.com/trustex/notepad) 
+#### 1. [node-note-of-interview-互联网面试](https://github.com/trustex/note-of-interview) 
+#### 2. [node-常规Java工具，算法，加密，数据库，面试题，源代码分析，解决方案](https://github.com/trustex/Note) 
+#### 3. [node-CS-Notes-计算机基础知识](https://github.com/trustex/CS-Notes) 
+#### 4. [node-通用技术-全面](https://github.com/trustex/noteBook) 
+#### 5. [node-KnowledgeNotes-Linux、Java相关](https://github.com/trustex/KnowledgeNotes) 
+#### 6. [node-knowledgeNote-Linux运维](https://github.com/trustex/knowledgeNote) 
+#### 7. [node-中文 Python 笔记](https://github.com/trustex/notes-python) 
+#
+#### 8. [node-iOS开发技巧](https://github.com/trustex/NOTE-1) 
+#### 9. [node-AndroidNote-Android笔记](https://github.com/trustex/AndroidNote) 
+#### 10. [node-AndroidNote1-Android笔记](https://github.com/trustex/AndroidNote-1) 
+#### 11. [node-AndroidNote2-Android笔记](https://github.com/trustex/AndroidNote-2) 
+#### 12. [node-LearningNotes-Android笔记](https://github.com/trustex/LearningNotes) 
+#
+#### 13. [node-林鑫-前端、VUE](https://github.com/trustex/blog) 
+#### 14. [node-front-end-note-前端、VUE等](https://github.com/trustex/front-end-note) 
+#### 15. [node-WEB前端学习笔记和感悟](https://github.com/trustex/study-notes) 
+#### 16. [node-JS笔记](https://github.com/trustex/zhubangbang-javascript-notes) 
+#### 17. [node-notepad-JS的实现本地存储的记事本](https://github.com/trustex/notepad) 
 ####### 基于vue2.0+vuex+localStorage+sass+webpack，实现一个本地存储的记事本。兼容PC端和移动端。
-#### 12. [node-note-of-interview-互联网面试](https://github.com/trustex/note-of-interview) 
-#### 1. [node-中文 Python 笔记](https://github.com/trustex/notes-python) 
-#### 1. [node-区块链白皮书、书籍、交易所、币种、自媒体等资源汇总](https://github.com/trustex/awesome-blockchain) 
-#### 1. [node-Web3.js、Solidity、Truffle开发教程及以太坊开发资源汇总](https://github.com/trustex/awesome-ethereum-cn) 
-#### 1. [node-常规Java工具，算法，加密，数据库，面试题，源代码分析，解决方案](https://github.com/trustex/Note) 
-#### 1. [node-WEB前端学习笔记和感悟](https://github.com/trustex/study-notes) 
-#### 1. [node-iOS开发技巧](https://github.com/trustex/NOTE-1) 
-#### 1. [node-常规Java工具，算法，加密，数据库，面试题，源代码分析，解决方案](https://github.com/trustex/Note) 
-#### 1. [node-常规Java工具，算法，加密，数据库，面试题，源代码分析，解决方案](https://github.com/trustex/Note) 
-#### 1. [node-古千峰-eos_dapp_development_cn](https://github.com/trustex/eos_dapp_development_cn) 
-#### 12. [node-古千峰-ipfs_development_tutorial](https://github.com/trustex/ipfs_development_tutorial) 
-#### 9. [node-古千峰-以太坊智能合约-multi-stage-ico](https://github.com/trustex/multi-stage-ico) 
+#
+#
+#### 18. [node-Web3.js、Solidity、Truffle开发教程及以太坊开发资源汇总](https://github.com/trustex/awesome-ethereum-cn) 
+#### 19. [node-区块链白皮书、书籍、交易所、币种、自媒体等资源汇总](https://github.com/trustex/awesome-blockchain) 
+#### 20. [node-古千峰-eos_dapp_development_cn](https://github.com/trustex/eos_dapp_development_cn) 
+#### 21. [node-古千峰-ipfs_development_tutorial](https://github.com/trustex/ipfs_development_tutorial) 
+#### 22. [node-古千峰-以太坊智能合约-multi-stage-ico](https://github.com/trustex/multi-stage-ico) 
 #
 # 八、区块链资源汇总 
 #
