@@ -4,10 +4,10 @@
 
 
 ### 二、区块链数字货币对接文档整理
-#### 1.BTC比特币安装、充币、提币
-#### 2.ETH以太坊安装、充币、提币
-#### 3.EOS安装、充币、提币
-#### 4.[STEEM安装、充币、提币](doc/STEEM.md)
+#### 1. BTC比特币安装、充币、提币
+#### 2. ETH以太坊安装、充币、提币
+#### 3. EOS安装、充币、提币
+#### 4. [STEEM安装、充币、提币](doc/STEEM.md)
 
 
 ### 三、数字货币交易所设计
@@ -16,9 +16,14 @@
 
 
 
-
+### 四、数字货币交易所相关开源整理
+##### 1. EthersWallet-ios
+##### 2. trust-wallet-ios
+##### 3. trust-wallet-android
+##### 4. PocketEOS-IOS
+##### 5. PocketEOS-Android
 
 
 ### 四、相关参考 
-###### 1.[Git常用命令](http://www.cnblogs.com/chenwolong/p/GIT.html)
-###### 2.[MD语法](https://www.cnblogs.com/liugang-vip/p/6337580.html)
+###### 1. [Git常用命令](http://www.cnblogs.com/chenwolong/p/GIT.html)
+###### 2. [MD语法](https://www.cnblogs.com/liugang-vip/p/6337580.html)
