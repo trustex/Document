@@ -9,6 +9,9 @@
 #### 3. EOS安装、充币、提币
 #### 4. [STEEM安装、充币、提币](doc/STEEM.md)
 
+莱特币隔离见证地址是M开头转换（3转 M）：
+https://litecoin-project.github.io/p2sh-convert/
+
 
 ## 三、数字货币交易所设计
 
