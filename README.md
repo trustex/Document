@@ -5,6 +5,7 @@
 
 ## 二、区块链数字货币对接文档整理
 #### 1. BTC比特币安装、充币、提币
+比特比 Json RPC 文档： https://mistydew.github.io/blog/category.html#category
 #### 2. ETH以太坊安装、充币、提币
 #### 3. EOS安装、充币、提币
 #### 4. [STEEM安装、充币、提币](doc/STEEM.md)
