@@ -28,7 +28,7 @@ secret=私钥
 `    #两个窗口操作  然后不要exit直接在crt等软件把窗口x掉`
 
 ###### 启动钱包
-`ads`
+`/usr/bin/ads`
 
 ###### 进入钱包TMUX窗口
 `tmux a -t ads`
