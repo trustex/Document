@@ -28,4 +28,12 @@ gen=0
 ###### 查询余额
 ` ./bin/bitcoind getbalance`
 
+###### 钱包加密
+`./bin/bitcoin-cli encryptwallet 密码`
+
+###### 钱包解锁
+`./bin/bitcoin-cli walletpassphrase 密码 300`
+
+###### 钱包转账
+`./bin/bitcoin-cli sendtoaddress 地址 金额`
 
