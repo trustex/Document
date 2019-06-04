@@ -22,7 +22,7 @@
 解锁地址：personal.unlockAccount("地址")
 查询余额：eth.getBalance("地址")
 ```
-#### （5）转账
+#### （5）转账以太坊
 ##### 转账说明：
 `eth.sendTransaction({from:"出款地址",to:"收款地址",value:web3.toWei(金额,"ether")})`
 ##### 转账示例：
