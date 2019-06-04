@@ -20,8 +20,8 @@ make
 #### （4）启动节点
 ```
 nohup ./onegram-core/programs/witness_node/witness_node \
---genesis-json /data/ogc/onegram-core/genesis.json \
--d /data/ogc/onegram-core/data \
+--genesis-json ./onegram-core/genesis.json \
+-d ./onegram-core/data \
 --rpc-endpoint 127.0.0.1:8090 &
 ```
 
