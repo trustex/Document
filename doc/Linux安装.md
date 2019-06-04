@@ -9,10 +9,10 @@ swapon /opt/swap
 ```
 
 #### （2）文件上传下载
-###### centos
+###### centos安装
 `yum -y install lrzsz`
 
-###### ubuntu
+###### ubuntu安装
 `sudo apt-get install lrzsz`
 
 ###### 源码安装
