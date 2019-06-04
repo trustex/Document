@@ -5,8 +5,29 @@
 
 ## 二、区块链数字货币对接文档整理
 #### 1. BTC比特币安装、充币、提币
-###### [BTC维护文档整理](doc/BTC.md)
-###### 比特比 Json RPC 文档： https://mistydew.github.io/blog/category.html#category
+##### [BTC维护文档整理](doc/BTC.md)
+##### 比特比 Json RPC 文档： https://mistydew.github.io/blog/category.html#category
+##### 和比特币类似的币种有：
+```
+BCH
+LTC
+EXO
+SINS
+ABBC
+CEN
+CPC
+DEV
+FLASH
+GRC
+ILC
+RPD
+VIT
+AIAS
+GZRO
+HPC
+VIPS
+XSG
+```
 #### 2. ETH以太坊安装、充币、提币(doc/ETH.md)
 [ETH维护文档整理](doc/ETH.md)
 #### 3. EOS安装、充币、提币
