@@ -26,6 +26,7 @@ gen=0
 
 #### （4）日常维护命令同比特币
 
+
 #### （5）查询USDT余额
 `./bin/omnicore-cli -conf=/home/ubuntu/.usdtcoin/bitcoin.conf omni_getbalance 14FuhpJ9ixW5EyoXT1G21BAKgAvitx35pR 31`
 
@@ -39,7 +40,7 @@ gen=0
                         "手续费账号"
 ```
 
-#### （7）转账MAID（先解锁钱包）
+#### （8）转账MAID（先解锁钱包）
 ```
 ./bin/omnicore-cli -conf=/home/user/.usdtcoin/bitcoin.conf omni_funded_send "出款MAID地址" 
                         "收款MAID地址" 3 "金额" 
