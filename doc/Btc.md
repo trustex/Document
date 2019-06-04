@@ -3,6 +3,7 @@
 ####
 ##### 比特币水龙头：https://coinfaucet.eu/en/btc-testnet/
 ##### 比特币测试网络查询：https://live.blockcypher.com/btc-testnet/address/2NFo1oyFSsorCGYT3jtaf4ipw7sgr2ap838/
+##### 区块查询：http://btc.com
 
 ##### （1）安装
 ###### 源码地址： https://github.com/bitcoin/bitcoin
