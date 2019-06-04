@@ -30,9 +30,15 @@ XSG
 ```
 #### 2. ETH以太坊安装、充币、提币(doc/ETH.md)
 [ETH维护文档整理](doc/ETH.md)
-#### 3. EOS安装、充币、提币
-#### 4. [STEEM安装、充币、提币](doc/STEEM.md)
-#### 5. Neo
+####
+#### 3、USDT运维手册（安装、维护）
+[USDT、MAID维护文档整理](doc/USDT.md)
+####
+#### 4. EOS安装、充币、提币
+####
+#### 5. [STEEM安装、充币、提币](doc/STEEM.md)
+####
+#### 6. Neo
 https://scan.nel.group/
 
 莱特币隔离见证地址是M开头转换（3转 M）：
