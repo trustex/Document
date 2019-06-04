@@ -7,7 +7,7 @@
 
 #### （1）安装
 ###### Omni钱包： http://www.omnilayer.org/
-###### Omni钱包源码： https://github.com/OmniLayer/omnicore
+###### Omni钱包源码、BIN包： https://github.com/OmniLayer/omnicore
 
 #### （2）启动
 `./bin/omnicored -daemon -port=端口号 -conf=/home/user/.usdtcoin/bitcoin.conf -datadir=/home/user/.usdtcoin`
