@@ -15,6 +15,9 @@
 
 #### （4）日常命令
 ```
+节点情况：eth.syncing
+查询节点：net.peerCount
+最新区块： eth.blockNumber
 获取新地址：personal.newAccount()
 解锁地址：personal.unlockAccount("地址")
 查询余额：eth.getBalance("地址")
