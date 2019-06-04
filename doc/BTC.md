@@ -40,3 +40,26 @@ gen=0
 ###### 钱包转账
 `./bin/bitcoin-cli sendtoaddress 地址 金额`
 
+
+### 和比特币类似的币种有：
+```
+BCH
+LTC
+EXO
+SINS
+ABBC
+CEN
+CPC
+DEV
+FLASH
+GRC
+ILC
+RPD
+VIT
+AIAS
+GZRO
+HPC
+VIPS
+XSG
+```
+
