@@ -1,23 +1,21 @@
 
-##以太坊布署、开发文档
+## 以太坊布署、开发文档
 ### ETH以太坊钱包运维手册
 #### 官网：https://www.ethereum.org/
 #### 区块浏览器1：https://etherscan.io/
 #### 区块浏览器1：https://eth.btc.com/
-
 
 ### ETC以太经典钱包运维
 #### 官网：https://ethereumclassic.org/
 #### 区块浏览器1: http://gastracker.io/
 #### 区块浏览器2：http://etherhub.io/
 
-
 #### （1）安装
 ##### ETH
 ######  源码地址：https://github.com/ethereum/go-ethereum
 ######  BIN包：https://geth.ethereum.org/downloads/
 
-#####
+##### 
 ##### ETC
 ###### 源码、BIN包地址：https://github.com/ethereumproject/go-ethereum
 
@@ -36,7 +34,7 @@
 解锁地址：personal.unlockAccount("地址")
 查询余额：eth.getBalance("地址")
 ```
-#### （5）转账以太坊
+#### （5）转账
 ##### 转账说明：
 `eth.sendTransaction({from:"出款地址",to:"收款地址",value:web3.toWei(金额,"ether")})`
 ##### 转账示例：
