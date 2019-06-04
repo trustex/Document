@@ -3,7 +3,7 @@
 #### 官网：  https://tether.to/
 #### 区块浏览器： https://www.omniexplorer.info/asset/31
 
-#### 支持主要币种有：USDT、MAID
+#### 支持主要币种有：USDT、MAID等
 
 #### （1）安装
 ###### Omni钱包： http://www.omnilayer.org/
