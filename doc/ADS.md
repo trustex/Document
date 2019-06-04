@@ -25,7 +25,8 @@ secret=私钥
 #### （3）启动
 ##### 开启钱包TMUX窗口
 `tmux new -s ads`
-两个窗口操作  然后不要exit直接在crt等软件把窗口x掉
+`#两个窗口操作  然后不要exit直接在crt等软件把窗口x掉`
+
 ###### 启动钱包
 `ads`
 
@@ -34,6 +35,23 @@ secret=私钥
 
 ###### 开启钱包RPC
 `/usr/bin/ads-json-rpc --host 127.0.0.1 --port rpc端口 &`
+
+###### 测试结果
+```
+curl -X POST 127.0.0.1:rpc端口 \
+-H "Content-Type: application/json" \
+-d @- << EOF
+{
+    "jsonrpc": "2.0",
+    "id": "1",
+    "method": "get_log",
+    "params": {
+    "address":"钱包地址",
+    "from":0
+    }
+}
+EOF
+```
 
 #### （4）日常操作
 ##### 账号查询 
