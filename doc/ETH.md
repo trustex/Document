@@ -21,8 +21,12 @@
 获取新地址：personal.newAccount()
 解锁地址：personal.unlockAccount("地址")
 查询余额：eth.getBalance("地址")
-转账：eth.sendTransaction({from:"出款地址",to:"收款地址",value:web3.toWei(金额,"ether")})
-转账示例：
+```
+#### （5）转账
+##### 转账说明：
+`eth.sendTransaction({from:"出款地址",to:"收款地址",value:web3.toWei(金额,"ether")})`
+##### 转账示例：
+```
 eth.sendTransaction({from:"0x947e4ae8dd16902a8b76c212963a4617869adaa0",
                       to:"0xcdf03959b663d54471323c400c47d1ca94c93051",
                       value:web3.toWei(0.1，"ether")})
