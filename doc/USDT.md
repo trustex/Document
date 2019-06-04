@@ -1,4 +1,4 @@
-### USDT钱包运维手册\MAID钱包运维手册
+## USDT钱包运维手册\MAID钱包运维手册
 
 #### 官网：  https://tether.to/
 #### 区块浏览器： https://www.omniexplorer.info/asset/31
@@ -25,8 +25,7 @@ gen=0
 ```
 
 #### （4）[日常维护命令同比特币](BTC.md)
-
-
+####
 #### （5）查询USDT余额
 `./bin/omnicore-cli -conf=/home/user/.usdtcoin/bitcoin.conf omni_getbalance 14FuhpJ9ixW5EyoXT1G21BAKgAvitx35pR 31`
 
