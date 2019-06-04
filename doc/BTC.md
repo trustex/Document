@@ -40,6 +40,15 @@ gen=0
 ###### 钱包转账
 `./bin/bitcoin-cli sendtoaddress 地址 金额`
 
+###### 最新区块数量
+`./bin/bitcoin-cli getblockcount`
+
+###### 添加连接节点
+`./bin/bitcoin-cli addnode 80.211.95.154 add`
+
+###### 得到节点连接信息
+`./bin/bitcoin-cli getaddednodeinfo true `
+
 
 ### 和比特币类似的币种有：
 ```
