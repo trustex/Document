@@ -10,18 +10,19 @@
 
 ##### （2）配置文件
 ###### /home/user/.bitcoin/bitcoin.conf
-
-###### testnet=0
-###### txindex=1
-###### server=1
-###### rpcport=rpc端口
-###### rpcuser= 账号
-###### rpcpassword=密码
-###### rpcallowip=127.0.0.1/32
-###### gen=0
+```
+testnet=0
+txindex=1
+server=1
+rpcport=rpc端口
+rpcuser= 账号
+rpcpassword=密码
+rpcallowip=127.0.0.1/32
+gen=0
+```
 
 ##### （3）启动
-###### ./bin/bitcoind -txindex -daemon
+`./bin/bitcoind -txindex -daemon`
 
 ##### （4）日常操作
 ###### 查询余额
