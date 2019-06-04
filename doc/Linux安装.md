@@ -18,7 +18,7 @@ swapon /opt/swap
 ###### 源码安装
 ```
 wget https://www.ohse.de/uwe/releases/lrzsz-0.12.20.tar.gz
-tar zxvf 
+tar zxvf lrzsz-0.12.20.tar.gz
 cd lrzsz-0.12.20
 ./configure --prefix=/usr/local/rz
 make
