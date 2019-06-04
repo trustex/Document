@@ -1,5 +1,8 @@
 ## USDT钱包运维手册\MAID钱包运维手册
 
+### [BTC比特币钱包运维手册](BTC.md)
+`USDT和MAID是运行在BTC网络上的代币。`
+
 #### 官网：  https://tether.to/
 #### USDT区块浏览器： https://www.omniexplorer.info/asset/31
 #### MAID区块浏览器： https://www.omniexplorer.info/asset/3
