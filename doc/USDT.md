@@ -3,20 +3,20 @@
 ### [BTC比特币钱包运维手册](BTC.md)
 `USDT和MAID是运行在BTC网络上的代币。`
 
-#### 官网：  https://tether.to/
+#### USDT官网：  https://tether.to/
 #### USDT区块浏览器： https://www.omniexplorer.info/asset/31
 #### MAID区块浏览器： https://www.omniexplorer.info/asset/3
 
 #### 支持主要币种有：USDT、MAID等
 
-#### （1）安装
+#### （1）Omni钱包安装
 ###### Omni钱包： http://www.omnilayer.org/
 ###### Omni钱包源码、BIN包： https://github.com/OmniLayer/omnicore
 
-#### （2）启动
+#### （2）Omni钱包启动
 `./bin/omnicored -daemon -port=端口号 -conf=/home/user/.usdtcoin/bitcoin.conf -datadir=/home/user/.usdtcoin`
 
-#### （3）配置文件同比特币 bitcoin.conf
+#### （3）Omni钱包配置文件:同比特币(bitcoin.conf)
 ```
 testnet=0
 txindex=1
