@@ -4,7 +4,7 @@
 #### Apache Ignite（V2.6.0）中文开发手册 https://www.zybuluo.com/liyuj/note/230739
 
 ## 二、区块链数字货币对接文档整理
-#### 1. BTC比特币安装、充币、提币
+#### 1. BTC比特币钱包安装、充币、提币
 ##### [BTC维护文档整理](doc/BTC.md)
 ##### 比特比 Json RPC 文档： https://mistydew.github.io/blog/category.html#category
 ##### 和比特币类似的币种有：
@@ -28,17 +28,17 @@ HPC
 VIPS
 XSG
 ```
-#### 2. ETH以太坊安装、充币、提币(doc/ETH.md)
+#### 2. ETH以太坊钱包安装、充币、提币(doc/ETH.md)
 [ETH维护文档整理](doc/ETH.md)
 ####
-#### 3、USDT运维手册（安装、维护）
+#### 3、USDT钱包运维手册（安装、维护）
 [USDT、MAID维护文档整理](doc/USDT.md)
 ####
-#### 4. EOS安装、充币、提币
+#### 4. EOS钱包安装、充币、提币
 ####
-#### 5. [STEEM安装、充币、提币](doc/STEEM.md)
+#### 5. [STEEM钱包安装、充币、提币](doc/STEEM.md)
 ####
-#### 6. Neo
+#### 6. Neo钱包运维手册
 https://scan.nel.group/
 
 莱特币隔离见证地址是M开头转换（3转 M）：
