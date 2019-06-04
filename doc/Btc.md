@@ -27,3 +27,5 @@ gen=0
 （4）日常操作
 查询余额
 ./bin/bitcoind getbalance
+
+
