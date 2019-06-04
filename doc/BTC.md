@@ -49,6 +49,15 @@ gen=0
 ###### 得到节点连接信息
 `./bin/bitcoin-cli getaddednodeinfo true `
 
+###### 其他
+```
+listaccounts
+listaddressgroupings
+listtransactions
+getaddressesbyaccount
+getaddressesbyaccount 账号
+```
+
 
 ### 和比特币类似的币种有：
 ```
