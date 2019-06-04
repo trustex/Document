@@ -4,11 +4,11 @@
 #### Apache Ignite（V2.6.0）中文开发手册 https://www.zybuluo.com/liyuj/note/230739
 
 ## 二、区块链数字货币对接文档整理
-#### 1. BTC比特币安装、充币、提币(doc/BTC.md)
-BTC维护文档整理(doc/BTC.md)
+#### 1. BTC比特币安装、充币、提币
+[BTC维护文档整理](doc/BTC.md)
 比特比 Json RPC 文档： https://mistydew.github.io/blog/category.html#category
 #### 2. ETH以太坊安装、充币、提币(doc/ETH.md)
-ETH维护文档整理(doc/ETH.md)
+[ETH维护文档整理](doc/ETH.md)
 #### 3. EOS安装、充币、提币
 #### 4. [STEEM安装、充币、提币](doc/STEEM.md)
 #### 5. Neo
