@@ -23,6 +23,16 @@ secret=私钥
 ```
 
 #### （3）启动
+##### 开启钱包
+###### 两个窗口操作  然后不要exit直接在crt等软件把窗口x掉
+`tmux new -s ads`
+####### 执行
+`ads`
+
+###### 进入钱包
+`tmux a -t ads`
+
+###### 开启RPC
 `/usr/bin/ads-json-rpc --host 127.0.0.1 --port rpc端口 &`
 
 #### （4）日常操作
