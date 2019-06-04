@@ -7,7 +7,7 @@
 #### （1）安装
 ##### 源码：https://github.com/EOSIO/eos
 
-#### （2）启动
+#### （2）启动轻钱包
 ` nohup ./bin/keosd --config-dir /home/user/eosio-wallet --wallet-dir /home/user/eosio-wallet --http-server-address 127.0.0.1:9900
  --unix-socket-path /tmp/keosd.sock &`
  
