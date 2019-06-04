@@ -1,0 +1,22 @@
+
+## XEM钱包运维手册
+#### 官网： https://nem.io/
+#### 源码： https://github.com/nemtech
+#### 下载： https://nem.io/downloads/
+#### Java BIN包： https://bob.nem.ninja/nis-0.6.97.tgz
+#### API： https://nem.io/developers/
+
+#### 配置文件(config.properties)
+##### 可修改端口
+`nem.httpPort = 7890`
+
+##### 数据目录
+`/home/user/nem`
+
+
+#### 启动
+#!/bin/bash
+
+cd package/nis
+nohup java -Xms1G -Xmx2G -cp ".:./*:../libs/*" org.nem.deploy.CommonStarter &
+
