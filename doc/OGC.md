@@ -7,11 +7,11 @@
 
 #### （2）安装
 ```
-    cd onegram-core
-    git checkout master # may substitute "master" with current release tag
-    git submodule update --init --recursive
-    cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo .
-    make
+cd onegram-core
+git checkout master # may substitute "master" with current release tag
+git submodule update --init --recursive
+cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo .
+make
 ```
 
 #### （3）配置文件 config.ini
