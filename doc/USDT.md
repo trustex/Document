@@ -1,7 +1,8 @@
 ## USDT钱包运维手册\MAID钱包运维手册
 
 #### 官网：  https://tether.to/
-#### 区块浏览器： https://www.omniexplorer.info/asset/31
+#### USDT区块浏览器： https://www.omniexplorer.info/asset/31
+#### MAID区块浏览器： https://www.omniexplorer.info/asset/3
 
 #### 支持主要币种有：USDT、MAID等
 
