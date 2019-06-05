@@ -29,7 +29,7 @@ ln -s /usr/lib/libsodium.so /usr/local/lib/libsodium.so
 ###### 源码安装
 ```
 wget https://download.libsodium.org/libsodium/releases/libsodium-1.0.18-stable.tar.gz
-./
+./autogen.sh
 ./configure
-make && make check
+make && make install
 ```
