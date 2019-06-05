@@ -13,7 +13,7 @@ git submodule update --init --recursive
 ./telos_build.sh
 `
 ##### 启动节点
-` start `
+` nodeos --data-dir ./data --config-dir ./data`
 
 #### （2）启动轻钱包
 ` nohup ./bin/keosd --config-dir /home/user/eosio-wallet --wallet-dir /home/user/eosio-wallet --http-server-address 127.0.0.1:9900
