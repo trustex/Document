@@ -26,3 +26,10 @@ wget https://downloads.rise.vision/snapshots/${NETWORK?}/latest -O latestsnap.gz
 sudo apt-get install libsodium-dev
 ln -s /usr/lib/libsodium.so /usr/local/lib/libsodium.so
 ```
+###### 源码安装
+```
+wget https://download.libsodium.org/libsodium/releases/libsodium-1.0.18-stable.tar.gz
+./
+./configure
+make && make check
+```
