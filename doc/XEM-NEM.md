@@ -21,3 +21,7 @@
 cd package/nis
 nohup java -Xms1G -Xmx2G -cp ".:./*:../libs/*" org.nem.deploy.CommonStarter &
 ```
+
+#### （3）常用命令
+##### 查询节点高度
+`curl http://127.0.0.1:7890/chain/height`
