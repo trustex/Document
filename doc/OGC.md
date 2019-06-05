@@ -48,7 +48,7 @@ cd ./onegram-core/programs/cli_wallet
 
 #### （6）启动RPC（连接本地节点）
 `tmux new -s ogc`
-#####进入
+##### 进入
 ```
 tmux a -t ogc
 cd ./onegram-core/programs/cli_wallet
