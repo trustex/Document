@@ -22,4 +22,7 @@ wget https://downloads.rise.vision/snapshots/${NETWORK?}/latest -O latestsnap.gz
 
 
 ##### 安装加密包libsodium.so，放到 JAVA CLASSPATH中。
-`sudo apt-get install libsodium-dev`
+```
+sudo apt-get install libsodium-dev
+ln -s /usr/lib/libsodium.so /usr/local/lib/libsodium.so
+```
