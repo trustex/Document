@@ -3,7 +3,10 @@
 
 #### （1）交换分区建立
 ```
-dd if=/dev/zero of=/opt/swap bs=1024 count=16384000
+dd if=/dev/zero of=/opt/swap bs=1024 count=2048000 
+#dd if=/dev/zero of=/opt/swap bs=1024 count=4096000 
+#dd if=/dev/zero of=/opt/swap bs=1024 count=8192000 
+#dd if=/dev/zero of=/opt/swap bs=1024 count=16384000
 mkswap /opt/swap
 swapon /opt/swap
 ```
