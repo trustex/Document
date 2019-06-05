@@ -6,12 +6,13 @@
 
 #### （1）节点安装
 ##### 源码：https://github.com/Telos-Foundation/telos
-`
+```
 git clone https://github.com/Telos-Foundation/telos
 cd telos
+git checkout oak-v1.4.5
 git submodule update --init --recursive
 ./telos_build.sh
-`
+```
 ##### 启动节点
 `./bin/nodeos --data-dir ./data --config-dir ./data`
 
