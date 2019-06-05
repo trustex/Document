@@ -13,10 +13,10 @@ git submodule update --init --recursive
 ./telos_build.sh
 `
 ##### 启动节点
-` nodeos --data-dir ./data --config-dir ./data`
+`./bin/nodeos --data-dir ./data --config-dir ./data`
 
 #### （2）启动轻钱包
-` nohup ./bin/keosd --config-dir /home/user/eosio-wallet --wallet-dir /home/user/eosio-wallet --http-server-address 127.0.0.1:9900
+`nohup ./bin/keosd --config-dir /home/user/eosio-wallet --wallet-dir /home/user/eosio-wallet --http-server-address 127.0.0.1:9900
  --unix-socket-path /tmp/keosd.sock &`
  
 #### （3）常用命令
