@@ -31,6 +31,21 @@ nohup ./onegram-core/programs/witness_node/witness_node \
 ##### 节点数据重新再来
 `--resync-blockchain`
 
+#### （5）创建钱包
+```
+cd ./onegram-core/programs/cli_wallet
+./cli_wallet  wss://rpc.onegramcoin.net -H 127.0.0.1:1122 \
+  --chain-id face06cbc342d7199b088b99ba00044034841f44c12e03ea2d61166bec2d732d
+```
+###### 设置密码
+`set_password 密码`
+
+###### 解锁
+`unlock 密码`
+
+###### 导入Key
+`import_key 账号 私钥`
+
 #### （5）启动RPC（连接本地节点）
 ```
 cd ./onegram-core/programs/cli_wallet
