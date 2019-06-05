@@ -16,5 +16,6 @@ wget https://downloads.rise.vision/snapshots/${NETWORK?}/latest -O latestsnap.gz
 ./manager.sh status
 #./manager.sh stop node
 #./manager.sh start node
+#./manager.sh reload node
 
 ```
