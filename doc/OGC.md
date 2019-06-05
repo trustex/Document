@@ -31,5 +31,5 @@ nohup ./onegram-core/programs/witness_node/witness_node \
 #### （5）启动RPC
 ```
 cd ./onegram-core/programs/cli_wallet
-./cli_wallet -w bitker_wallet -s ws://127.0.0.1:8090 -H 127.0.0.1:1122
+./cli_wallet -w wallet.json -s ws://127.0.0.1:8090 -H 127.0.0.1:1122
 ```
