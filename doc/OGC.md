@@ -34,7 +34,7 @@ nohup ./onegram-core/programs/witness_node/witness_node \
 #### （5）创建钱包
 ```
 cd ./onegram-core/programs/cli_wallet
-./cli_wallet  wss://rpc.onegramcoin.net -H 127.0.0.1:1122 \
+./cli_wallet wss://rpc.onegramcoin.net -H 127.0.0.1:1122 \
   --chain-id face06cbc342d7199b088b99ba00044034841f44c12e03ea2d61166bec2d732d
 ```
 ###### 设置密码
@@ -46,14 +46,14 @@ cd ./onegram-core/programs/cli_wallet
 ###### 导入Key
 `import_key 账号 私钥`
 
-#### （5）启动RPC（连接本地节点）
+#### （6）启动RPC（连接本地节点）
 ```
 cd ./onegram-core/programs/cli_wallet
 ./cli_wallet -w wallet.json -s ws://127.0.0.1:8090 -H 127.0.0.1:1122 \
   --chain-id face06cbc342d7199b088b99ba00044034841f44c12e03ea2d61166bec2d732d
 ```
 
-#### （6）启动RPC（连接远程节点）
+#### （7）启动RPC（连接远程节点）
 ```
 cd ./onegram-core/programs/cli_wallet
 ./cli_wallet -w wallet.json wss://rpc.onegramcoin.net -H 127.0.0.1:1122 \
