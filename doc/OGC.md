@@ -31,5 +31,6 @@ nohup ./onegram-core/programs/witness_node/witness_node \
 #### （5）启动RPC
 ```
 cd ./onegram-core/programs/cli_wallet
-./cli_wallet -w wallet.json -s ws://127.0.0.1:8090 -H 127.0.0.1:1122
+./cli_wallet -w wallet.json -s ws://127.0.0.1:8090 -H 127.0.0.1:1122 \
+  --chain-id face06cbc342d7199b088b99ba00044034841f44c12e03ea2d61166bec2d732d
 ```
