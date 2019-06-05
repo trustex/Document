@@ -15,7 +15,7 @@ cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo .
 make
 ```
 
-#### （3）配置文件 config.ini
+#### （3）配置文件(data/config.ini)添加
 ```
 seed-nodes = ["seed1.onegram.org:8540","seed2.onegram.org:8540","seed3.onegram.org:8540","seed4.onegram.org:8540","seed5.onegram.org:8540","seed6.onegram.org:8540","seed7.onegram.org:8540","seed8.onegram.org:8540","seed9.onegram.org:8540","seed10.onegram.org:8540","seed11.onegram.org:8540","seed12.onegram.org:8540","seed13.onegram.org:8540","seed14.onegram.org:8540","seed15.onegram.org:8540","seed16.onegram.org:8540","159.69.7.216:8540","95.216.140.132:8540"]
 ```
