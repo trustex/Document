@@ -1,5 +1,5 @@
 
-## TELOS轻钱包运维手册
+## TELOS钱包运维手册
 
 #### 官网：https://telosfoundation.io/
 #### 区块浏览器：https://monitor.telosfoundation.io/
