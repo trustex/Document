@@ -7,6 +7,6 @@
 
 
 #### 启动
-`nohup java -Xms1g -Xmx2g -jar waves-all-0.*.jar waves.conf &`
+`nohup java -Xms1g -Xmx4g -jar waves-all-0.*.jar waves.conf &`
 
 
