@@ -1,7 +1,7 @@
 
 ## Linux系统相关安装
 
-#### （1）交换分区建立
+### （1）交换分区建立
 ```
 dd if=/dev/zero of=/opt/swap bs=1024 count=2048000 
 #dd if=/dev/zero of=/opt/swap bs=1024 count=4096000 
@@ -11,14 +11,14 @@ mkswap /opt/swap
 swapon /opt/swap
 ```
 
-#### （2）文件上传下载
-###### centos安装
+### （2）文件上传下载
+##### centos安装
 `yum -y install lrzsz`
 
-###### ubuntu安装
+##### ubuntu安装
 `sudo apt-get install lrzsz`
 
-###### 源码安装
+##### 源码安装
 ```
 wget https://www.ohse.de/uwe/releases/lrzsz-0.12.20.tar.gz
 tar zxvf lrzsz-0.12.20.tar.gz
@@ -30,7 +30,15 @@ ln -s /usr/local/rz/bin/lrz /usr/local/rz/bin/rz
 ln -s /usr/local/rz/bin/lsz /usr/local/rz/bin/sz
 ```
 
-###### 服务端上传:
+##### 服务端上传:
 `rz -y`
-###### 服务端下载：
+##### 服务端下载：
 `sz test.tar.gz`
+
+### （3）ubuntu的Java环境变量配置
+/etc/profile新增以下内容：
+```
+export JAVA_HOME=/usr/local/java8
+export CLASSPATH=.:$JAVA_HOME/lib:$CLASSPATH
+export PATH=$JAVA_HOME/bin:$PATH
+```
