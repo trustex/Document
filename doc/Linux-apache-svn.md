@@ -1,6 +1,6 @@
 ## Linux Svn 配置
 
-#### 参考：https://www.tpyyes.com/a/linux/2016/0924/17.html
+#### 参考：https://blog.51cto.com/liuhuiliang/2096497
 
 ### 安装apr与apr-util
 ###### 下载这两个tar包，下载方式还是两种，直接运行wget或者点击网址下载，以下是两个依赖包的下载地址
@@ -9,7 +9,7 @@ wget http://mirror.bit.edu.cn/apache//apr/apr-1.5.2.tar.gz
 wget http://mirrors.cnnic.cn/apache//apr/apr-util-1.5.4.tar.gz
 ```
 
-### Apache2.0配置
+### Apache2.x配置
 ```
 ./configure --prefix=/usr/local/webapp/apache82 \
 --enable-modules=so \
