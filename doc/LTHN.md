@@ -11,7 +11,7 @@
 
 #### （2）启动钱包
 ```
-nohup sudo ./lethean-wallet-rpc --daemon-address 127.0.0.1:9988 \
+nohup ./lethean-wallet-rpc --daemon-address 127.0.0.1:9988 \
       --rpc-bind-ip 127.0.0.1 \
       --rpc-bind-port 1234 \
       --wallet-file my_lthn \
