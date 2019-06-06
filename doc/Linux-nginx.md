@@ -41,6 +41,43 @@ make install
   #ssl end
 ```
 
+#### CDN 配置
+```
+http {
+    access_log off;
+    client_body_temp_path temp/client_body_temp;
+    fastcgi_temp_path temp/fastcgi_temp;
+    scgi_temp_path temp/scgi_temp;
+    uwsgi_temp_path temp/uwsgi_temp;
+    proxy_temp_path temp/proxy_temp;
+
+    proxy_set_header Host $http_host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header Accept-Encoding "";
+    proxy_set_header Connection "keep-alive";
+
+    include mime.types;
+    default_type application/octet-stream;
+    sendfile on;
+    keepalive_timeout 10;
+    server {
+        listen 80;
+        location / {
+            proxy_pass https://test:443;
+        }
+    }
+    server {
+        listen 443 ssl;
+        ssl_certificate cert/test.crt;
+        ssl_certificate_key cert/test.key;
+        location / {
+            proxy_pass https://test:443;
+        }
+    }
+}
+```
+
 
 ### （4）启动
 #### 启动
