@@ -5,7 +5,7 @@
 
 ### 环境
 ```
-yum install bison openssl openssl-devel  zip unzip
+yum install gcc bison openssl openssl-devel  zip unzip
 ```
 
 ### （1）编译1
