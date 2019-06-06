@@ -16,14 +16,14 @@ make install
 
 ### （2）编译2 (RTMP)
 
-#### RTMP源码：https://github.com/arut/nginx-rtmp-module
+#### RTMP模块源码：https://github.com/arut/nginx-rtmp-module
 ```
 ./configure --with-http_stub_status_module \
   --prefix=/usr/local/nginx \
   --with-http_ssl_module \
   --with-openssl \
   --add-module=../nginx-rtmp-module
-
+make & make install
 ```
 
 ### （3）配置
