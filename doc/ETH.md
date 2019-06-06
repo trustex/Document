@@ -4,6 +4,10 @@
 #### 官网：https://www.ethereum.org/
 #### 区块浏览器1：https://etherscan.io/
 #### 区块浏览器1：https://eth.btc.com/
+#### API手册1：http://cw.hubwiz.com/card/c/ethereum-json-rpc-api/
+#### API手册2：https://www.orchome.com/958
+#### 简书文档-以太坊文档整理：https://www.jianshu.com/p/3445ff08229a
+
 
 ### ETC以太经典钱包运维
 #### 官网：https://ethereumclassic.org/
