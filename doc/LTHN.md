@@ -13,7 +13,7 @@
 ```
 nohup sudo ./lethean-wallet-rpc --daemon-address 127.0.0.1:9988 \
       --rpc-bind-ip 127.0.0.1 \
-      --rpc-bind-port 1117 \
+      --rpc-bind-port 1234 \
       --wallet-file my_lthn \
       --password 密码 \ 
       --confirm-external-bind &
