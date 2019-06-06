@@ -49,8 +49,9 @@ export PATH=$JAVA_HOME/bin:$PATH
 #/etc/security/limits.d/20-nproc.conf
 *          soft    nproc     65535
 root       soft    nproc     unlimited
-*         soft    nofile    65535
-*         hard    nofile    65535
+
+#*         soft    nofile    65535
+#*         hard    nofile    65535
 ```
 
 ### （4）网络优化
