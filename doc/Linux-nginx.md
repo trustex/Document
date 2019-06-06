@@ -3,6 +3,11 @@
 #### 官网：http://nginx.org/
 #### 下载：http://nginx.org/en/download.html
 
+### 环境
+```
+yum install bison openssl openssl-devel  zip unzip
+```
+
 ### （1）编译1
 ```
 ./configure --with-http_stub_status_module \
