@@ -3,7 +3,7 @@
 #### 官网：http://nginx.org/
 #### 下载：http://nginx.org/en/download.html
 
-### 编译1
+### （1）编译1
 ```
 ./configure --with-http_stub_status_module 、
 --prefix=/usr/local/nginx \
@@ -14,7 +14,7 @@ make
 make install
 ```
 
-### 编译2 (RTMP)
+### （2）编译2 (RTMP)
 
 #### RTMP源码：https://github.com/arut/nginx-rtmp-module
 ```
@@ -26,7 +26,7 @@ make install
 
 ```
 
-### 配置
+### （3）配置
 #### SSL配置
 ```
 #nginx ssl
@@ -42,4 +42,12 @@ make install
 ```
 
 
-### 启动
+### （4）启动
+#### 启动
+`./sbin/nginx -t`
+
+#### 重启
+`./sbin/nginx -s reload`
+
+#### 关闭
+`kill -HUP 进程D`
