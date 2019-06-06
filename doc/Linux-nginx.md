@@ -27,6 +27,13 @@ make install
 ```
 
 ### （3）配置
+#### 线程配置
+```
+worker_processes 1;
+events {
+    worker_connections 1024;
+}
+```
 #### SSL配置
 ```
 #nginx ssl
@@ -42,6 +49,7 @@ make install
 ```
 
 #### CDN 配置
+##### 来源：https://blog.csdn.net/xiangxisheng/article/details/53491510
 ```
 http {
     access_log off;
