@@ -19,7 +19,7 @@
 #!/bin/bash
 
 cd package/nis
-nohup java -Xms1G -Xmx2G -cp ".:./*:../libs/*" org.nem.deploy.CommonStarter &
+nohup java -Xms1G -Xmx3G -cp ".:./*:../libs/*" org.nem.deploy.CommonStarter &
 ```
 
 #### （3）常用命令
