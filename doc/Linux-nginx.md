@@ -5,7 +5,7 @@
 
 ### （1）编译1
 ```
-./configure --with-http_stub_status_module 、
+./configure --with-http_stub_status_module \
 --prefix=/usr/local/nginx \
 --with-http_ssl_module \
 --with-openssl \
