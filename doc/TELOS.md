@@ -12,6 +12,7 @@ cd telos
 git checkout oak-v1.4.5
 git submodule update --init --recursive
 ./telos_build.sh
+sudo ./telos_install.sh
 ```
 ##### 启动节点
 `./bin/nodeos --data-dir ./data --config-dir ./data`
