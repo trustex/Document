@@ -21,7 +21,7 @@ wget http://mirrors.cnnic.cn/apache//apr/apr-util-1.5.4.tar.gz
 make & make install
 ```
 
-### subversion模块配置
+### subversion配置
 ```
 wget http://mirrors.cnnic.cn/apache/subversion/subversion-1.9.4.tar.gz
 tar zxvf subversion-1.9.4.tar.gz
