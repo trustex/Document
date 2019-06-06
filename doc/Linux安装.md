@@ -44,6 +44,7 @@ export PATH=$JAVA_HOME/bin:$PATH
 ```
 
 ### （3）ulimit配置 (ulimit -a)
+#### ulimit配置说明：https://blog.csdn.net/linucle/article/details/8450980
 ```
 #/etc/security/limits.conf
 #/etc/security/limits.d/20-nproc.conf
