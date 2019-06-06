@@ -14,6 +14,9 @@ git submodule update --init --recursive
 ./telos_build.sh
 sudo ./telos_install.sh
 ```
+###### genesis文件：https://github.com/Telos-Foundation/telos/wiki/Telos:-genesis.json
+###### 配置文件：https://github.com/Telos-Foundation/telos/wiki/Telos:-config.ini
+
 ##### 启动节点
 `./bin/nodeos --data-dir ./data --config-dir ./data`
 
