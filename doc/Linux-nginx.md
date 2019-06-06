@@ -34,6 +34,66 @@ events {
     worker_connections 1024;
 }
 ```
+
+#### VHOST配置
+```
+upstream javasrv {
+        server 127.0.0.1:81;
+}
+
+server {
+       listen       80;
+       listen 443 	ssl;
+
+       #ssl start
+       ssl_certificate ssl/domain.crt;
+       ssl_certificate_key  ssl/domain.key;
+       ssl_session_timeout  30m;
+       ssl_protocols SSLv3 TLSv1 TLSv1.1 TLSv1.2;
+       ssl_ciphers  HIGH:!ADH:!EXPORT56:RC4+RSA:+MEDIUM;
+       #ssl end
+      
+       server_name api.domain.com;
+
+        location / {
+                root   /usr/local/wwwroot/www;
+                index  index.html index.htm index.php;
+        }
+
+        limit_conn perip 30;
+
+        error_page  404              /self_error.html;
+        error_page  416              /self_error.html;
+
+        error_page   500 /500.html;
+        error_page   502 /502.html;
+        error_page   503 504  /50x.html;
+
+        location = /error.html {
+            root   html;
+        }
+
+        location = /500.html {
+            root   html;
+        }
+
+        location = /502.html {
+            root   html;
+        }
+
+        location = /50x.html {
+            root   html;
+        }
+
+        location /api/ {
+            proxy_pass   http://javasrv;
+                       proxy_set_header   Host             $host;
+                       proxy_set_header   X-Real-IP        $remote_addr;
+                       proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+                                       client_max_body_size 10m;       
+        }
+}
+```
 #### SSL配置
 ```
 #nginx ssl
