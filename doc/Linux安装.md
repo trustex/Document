@@ -55,7 +55,7 @@ root       soft    nproc     unlimited
 
 ### （4）网络优化
 #### 配置编辑
-`#vi /etc/sysctl.conf`
+`vi /etc/sysctl.conf`
 ####  配置内容
 ```
 #net.ipv4.tcp_tw_recycle=1
