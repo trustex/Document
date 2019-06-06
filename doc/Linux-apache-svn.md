@@ -3,7 +3,7 @@
 #### 参考：https://www.tpyyes.com/a/linux/2016/0924/17.html
 
 ### 安装apr与apr-util
-####### 下载这两个tar包，下载方式还是两种，直接运行wget或者点击网址下载，以下是两个依赖包的下载地址
+###### 下载这两个tar包，下载方式还是两种，直接运行wget或者点击网址下载，以下是两个依赖包的下载地址
 ```
 wget http://mirror.bit.edu.cn/apache//apr/apr-1.5.2.tar.gz
 wget http://mirrors.cnnic.cn/apache//apr/apr-util-1.5.4.tar.gz
