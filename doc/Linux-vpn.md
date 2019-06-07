@@ -10,3 +10,4 @@ sudo apt install ppp pptpd iptables
 iptables -t nat -A POSTROUTING -s 10.1.88.0/24 -j MASQUERADE
 
 Centos安装L2TP+IPSec完整教程 https://www.cnblogs.com/archoncap/p/5170812.html
+
