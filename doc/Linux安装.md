@@ -7,11 +7,14 @@
 
 ### （1）磁盘分区
 #### 分区
-`fdisk /dev/xxxxx`
+```
+sudo fdisl -l #查看磁盘
+sudo fdisk /dev/xxxxx
+```
 #### 格式化
-`mkfs.ext4 /dev/xxxx1`
+`sudo mkfs.ext4 /dev/xxxx1`
 #### 挂载(加到自启动rc.local文件)
-`mount /dev/xxxx1 /data`
+`sudo mount /dev/xxxx1 /data`
 
 ### （2）交换分区建立
 ```
