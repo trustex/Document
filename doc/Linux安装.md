@@ -5,7 +5,15 @@
 #### Centos编译安装Apache/subversion1.9.7/httpd2.4.32 https://blog.51cto.com/liuhuiliang/2096497
 #### Linux下使用Google Authenticator配置SSH登录动态验证码 https://www.cnblogs.com/caoshousong/p/10474710.html
 
-### （1）交换分区建立
+### （1）磁盘分区
+#### 分区
+`fdisk /dev/xxxxx`
+#### 格式化
+`mkfs.ext4 /dev/xxxx1`
+#### 挂载(加到自启动rc.local文件)
+`mount /dev/xxxx1 /data`
+
+### （2）交换分区建立
 ```
 dd if=/dev/zero of=/opt/swap bs=1024 count=2048000 
 #dd if=/dev/zero of=/opt/swap bs=1024 count=4096000 
@@ -15,7 +23,7 @@ mkswap /opt/swap
 swapon /opt/swap
 ```
 
-### （2）文件上传下载
+### （3）文件上传下载
 ##### centos安装
 `yum -y install lrzsz`
 
@@ -39,7 +47,7 @@ ln -s /usr/local/rz/bin/lsz /usr/local/rz/bin/sz
 ##### 服务端下载：
 `sz test.tar.gz`
 
-### （3）ubuntu的Java环境变量配置
+### （4）ubuntu的Java环境变量配置
 /etc/profile新增以下内容：
 ```
 export JAVA_HOME=/usr/local/java8
@@ -47,7 +55,7 @@ export CLASSPATH=.:$JAVA_HOME/lib:$CLASSPATH
 export PATH=$JAVA_HOME/bin:$PATH
 ```
 
-### （3）ulimit配置 (ulimit -a)
+### （5）ulimit配置 (ulimit -a)
 #### ulimit配置说明：https://blog.csdn.net/linucle/article/details/8450980
 ```
 #/etc/security/limits.conf
@@ -59,7 +67,7 @@ root       soft    nproc     unlimited
 #*         hard    nofile    65535
 ```
 
-### （4）网络优化
+### （6）网络优化
 #### 配置编辑
 `vi /etc/sysctl.conf`
 ####  配置内容
