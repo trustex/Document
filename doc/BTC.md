@@ -7,6 +7,8 @@
 ##### 区块查询：http://btc.com
 ##### API查询：http://cw.hubwiz.com/card/c/bitcoin-json-rpc-api/
 
+##### 比特币多重签名机制使用篇 https://blog.csdn.net/cherisegege/article/details/81363105
+
 ##### （1）安装
 ###### 源码地址： https://github.com/bitcoin/bitcoin
 ###### BIN 包：https://bitcoincore.org/bin/bitcoin-core-0.18.0/
