@@ -1,4 +1,4 @@
-## Spring Cloud 配置中心项目
+## Spring Cloud 配置中心项目代码
 
 #### 配置中心项目启动配置文件--application.properties
 ```
@@ -45,7 +45,7 @@ public class HxConfigCenterApplication {
 }
 ```
 
-#### Spring项目启动配置--bootstrap.properties
+#### Spring Boot项目启动配置--bootstrap.properties
 ```
 spring.application.name=ms-admin-api
 spring.profiles.active=release
