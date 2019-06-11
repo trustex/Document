@@ -9,6 +9,7 @@
 #### JDK： http://ghaffarian.net/downloads/Java/
 #### Centos下载：http://vault.centos.org/
 #### 163.com下载：http://mirrors.163.com/
+#### 阿里下载：https://opsx.alibaba.com/mirror
 
 ### 常用命令
 #### 查看版本
