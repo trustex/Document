@@ -19,7 +19,7 @@ spring.profiles.active=subversion
 
 ```
 
-#### svn目录结构--
+#### svn目录结构
 `http://svn.domain.com:82/config/trunk/ms-admin-api-release.properties`
 
 
