@@ -1,24 +1,26 @@
 ## Spring Cloud 配置中心项目
 
-#### 配置文件
+#### 配置中心项目启动配置文件--application.properties
 ```
+#http://config.domain.com:8888
 server.port=8888
 
+#git
 #spring.cloud.config.server.git.uri: https://github.com/xxx/config-repo
 
 spring.application.name=configServer
 spring.cloud.config.enabled=true
 management.security.enabled=false
-#svn 配置 of http
-spring.cloud.config.server.svn.uri=http://svn.domain.com/config/
-spring.cloud.config.server.svn.username=svn用户名
-spring.cloud.config.server.svn.password=svn 密码
+#svn url of http
+spring.cloud.config.server.svn.uri=http://svn.domain.com:82/config/
+spring.cloud.config.server.svn.username=svn_user
+spring.cloud.config.server.svn.password=svn_password
 spring.profiles.active=subversion
 
 ```
 
-#### svn目录结构
-`/config/trunk/project-name-release.properties`
+#### svn目录结构--
+`http://svn.domain.com:82/config/trunk/ms-admin-api-release.properties`
 
 
 #### Spring Boot Config 项目代码
@@ -42,3 +44,13 @@ public class HxConfigCenterApplication {
 	}
 }
 ```
+
+#### Spring项目启动配置--bootstrap.properties
+```
+spring.application.name=ms-admin-api
+spring.profiles.active=release
+spring.cloud.config.uri=http://config.domain.com:8888
+spring.cloud.config.profile=release
+
+```
+
