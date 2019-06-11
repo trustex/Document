@@ -32,12 +32,11 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.bind.annotation.RestController;
 
-//@EnableDiscoveryClient
 @Configuration
 @EnableAutoConfiguration
 @SpringBootApplication
 @EnableConfigServer
-public class HxConfigCenterApplication {
+public class ConfigCenterApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ConfigCenterApplication.class, args);
