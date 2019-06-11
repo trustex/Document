@@ -6,7 +6,9 @@
 #### Linux下使用Google Authenticator配置SSH登录动态验证码 https://www.cnblogs.com/caoshousong/p/10474710.html
 
 ### 常用包下载
-#### JDK http://ghaffarian.net/downloads/Java/
+#### JDK： http://ghaffarian.net/downloads/Java/
+#### Centos下载：http://vault.centos.org/
+#### 163.com下载：http://mirrors.163.com/
 
 ### 常用命令
 #### 查看版本
