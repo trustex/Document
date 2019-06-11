@@ -5,6 +5,9 @@
 #### Centos编译安装Apache/subversion1.9.7/httpd2.4.32 https://blog.51cto.com/liuhuiliang/2096497
 #### Linux下使用Google Authenticator配置SSH登录动态验证码 https://www.cnblogs.com/caoshousong/p/10474710.html
 
+### 常用包下载
+#### JDK http://ghaffarian.net/downloads/Java/
+
 ### 常用命令
 #### 查看版本
 `cat /etc/issue`
