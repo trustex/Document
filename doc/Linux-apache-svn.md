@@ -1,6 +1,6 @@
 ## Linux Svn 配置
 
-#### 参考：https://blog.51cto.com/liuhuiliang/2096497
+#### 参考：Centos 编译安装Apache subversion-1.9.7 + httpd 2.4.32 https://blog.51cto.com/liuhuiliang/2096497
 
 ### 安装apr与apr-util
 ###### 下载这两个tar包，下载方式还是两种，直接运行wget或者点击网址下载，以下是两个依赖包的下载地址
