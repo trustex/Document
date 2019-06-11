@@ -54,7 +54,8 @@ https://scan.nel.group/
 https://litecoin-project.github.io/p2sh-convert/
 
 
-## 三、数字货币交易所设计
+## 三、虚拟货币交易所相关
+#### 
 
 
 
@@ -82,12 +83,10 @@ https://litecoin-project.github.io/p2sh-convert/
 ##### Mail:william.cn@163.com
 # 
 # 
-# 
-# 
 ## 六、相关参考 
 ###### 1. [Git常用命令](http://www.cnblogs.com/chenwolong/p/GIT.html)
 ###### 2. [MD语法](https://www.cnblogs.com/liugang-vip/p/6337580.html)
-#
+###### 3. java2s http://www.java2s.com/
 #
 # 七、Forked 项目说明
 #### 1. [node-note-of-interview-互联网面试](https://github.com/trustex/note-of-interview) 
