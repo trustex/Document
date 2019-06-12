@@ -1,5 +1,7 @@
 ## MySQL运维手册
 
+### 参考：[MySQL优化](Linux-MySQL优化.md)
+
 ### （1）Centos
 ```
 yum install cmake gcc gcc gcc-c++ 
