@@ -1,4 +1,5 @@
-###  参考：[Spring Boot中整合Sharding-JDBC]  (https://github.com/trustex/Document/blob/master/linux/mysql-sharding-jdbc.md)
+###  参考：Spring Boot中整合Sharding-JDBC  
+https://github.com/trustex/Document/blob/master/linux/mysql-sharding-jdbc.md
 
 ## 一、MySQL-PXC高可用集群
 #### 带你玩转Mysql高可用方案-PXC
