@@ -58,7 +58,7 @@ XSG
 https://scan.nel.group/
 
 #### 8. GXC 公信宝钱包运维手册]
-#####  [GXC/GXB维护文档整理](doc/GXC.md)
+#####  [GXC/GXB公信宝维护文档整理](doc/GXC.md)
 
 #### 9. 关于LTC的隔离见证地址
 莱特币隔离见证地址是M开头转换（3转 M）：
