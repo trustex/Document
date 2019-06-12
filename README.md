@@ -3,7 +3,7 @@
 ## 一、Linux 相关运维文档整理
 
 #### [Linux下MySQL单机版运维手册](doc/Linux-MySQL.md)
-#### [Linux下MySQL优化](doc/Linux-MySQL优化.md)
+#### [Linux下MySQL/PXC优化](doc/Linux-MySQL优化.md)
 #### [Linux下Redis运维手册](doc/Linux-Redis.md)
 #### [Linux下svn运维手册](doc/Linux-apache-svn.md)
 #### [Linux下Git使用手册](doc/Linux-git.md)
