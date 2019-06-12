@@ -1,4 +1,4 @@
-## MySQL运维手册
+## MySQL单机版运维手册
 
 ### 参考：[MySQL优化](Linux-MySQL优化.md)
 
