@@ -57,18 +57,15 @@ XSG
 #### 7. Neo钱包运维手册
 https://scan.nel.group/
 
+#### 8. GXC 公信宝钱包运维手册]
+#####  [GXC/GXB维护文档整理](doc/GXC.md)
 
-#### 8. 关于LTC的隔离见证地址
+#### 9. 关于LTC的隔离见证地址
 莱特币隔离见证地址是M开头转换（3转 M）：
 https://litecoin-project.github.io/p2sh-convert/
 
-
 ## 三、高可用相关
 #### [2019年最新总结，从程序员到CTO，从专业走向卓越，分享大牛企业内部pdf与PPT](https://github.com/trustex/from_coder_to_expert)
-
-
-
-
 
 ## 四、数字货币交易所相关开源整理
 ##### 1. EthersWallet-ios
@@ -77,7 +74,6 @@ https://litecoin-project.github.io/p2sh-convert/
 ##### 4. PocketEOS-IOS
 ##### 5. PocketEOS-Android
 
-# 
 # 
 ## 五、业务联系
 ### 业务范围：
