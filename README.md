@@ -65,7 +65,7 @@ https://scan.nel.group/
 https://litecoin-project.github.io/p2sh-convert/
 
 ## 三、高可用相关
-#### [2019年最新总结，从程序员到CTO，从专业走向卓越，分享大牛企业内部pdf与PPT](https://github.com/trustex/from_coder_to_expert)
+#### [2019年最新总结，从程序员到CTO，从专业走向卓越，分享大牛企业内部pdf与PPT](tree/master/架构师)
 
 ## 四、数字货币交易所相关开源整理
 ##### 1. EthersWallet-ios
