@@ -1,3 +1,12 @@
+### MySQL PXC 高可用集群搭建
+https://www.cnblogs.com/zejin2008/p/5475285.html
+
+### MySQL PXC的原理
+https://www.cnblogs.com/zengkefu/p/5678279.html
+
+### MySQL高可用—PXC简介
+http://www.mamicode.com/info-detail-2389110.html
+
 ### MySQL性能优化技巧
 https://www.cnblogs.com/moonlightL/p/7634294.html
 
