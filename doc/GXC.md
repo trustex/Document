@@ -43,3 +43,6 @@ curl 'https://opengateway.gxb.io/account/register' \
 
 #### 导入私钥
 `import_key mygxcacc-add 私钥`
+
+#### 转账
+`transfer from_address to_address 金额 GXC "地址标签memo" true`
