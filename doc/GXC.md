@@ -1,4 +1,4 @@
-## GXC/GXB钱包运维手册
+## GXC/GXB 公信宝钱包运维手册
 
 #### 官网 https://www.gxchain.org/
 #### 区块浏览器 https://docs.gxchain.org/zh/guide/
