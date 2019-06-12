@@ -1,8 +1,12 @@
+## MySQL-PXC高可用集群
+### 带你玩转Mysql高可用方案-PXC
+https://blog.csdn.net/zisefeizhu/article/details/81873466
+
 ### MySQL PXC 高可用集群搭建
 https://www.cnblogs.com/zejin2008/p/5475285.html
 
-### 带你玩转Mysql高可用方案-PXC
-https://blog.csdn.net/zisefeizhu/article/details/81873466
+### PXC快速入门
+https://www.e-learn.cn/content/mysql/996673
 
 ### MySQL PXC的原理
 https://www.cnblogs.com/zengkefu/p/5678279.html
@@ -13,6 +17,7 @@ http://www.mamicode.com/info-detail-2389110.html
 ### MySQL PXC5.7(Percona XtraDB Cluster)+HAproxy集群部署
 https://blog.51cto.com/11243465/2104885
 
+## MySQL 管理与优化
 ### MySQL性能优化技巧
 https://www.cnblogs.com/moonlightL/p/7634294.html
 
