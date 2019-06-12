@@ -1,6 +1,15 @@
 # 关于 Linux & 区块链 & 数字货币交易所相关的文档整理
 
 ## 一、Linux 相关运维文档整理
+
+#### [Linux下MySQL运维手册](Linux-MySQL.md)
+#### [Linux下MySQL优化](Linux-MySQL优化.md)
+#### [Linux下Redis运维手册](Linux-Redis.md)
+#### [Linux下svn运维手册](Linux-apache-svn.md)
+#### [Linux下Git使用手册](Linux-git.md)
+#### [Linux安装运维手册](Linux-install.md)
+#### [Linux下Nginx运维手册](Linux-nginx.md)
+#### [Linux下Vpn运维手册](Linux-vpn.md)
 #### Apache Ignite（V2.6.0）中文开发手册 https://www.zybuluo.com/liyuj/note/230739
 
 ## 二、区块链数字货币对接文档整理
@@ -54,8 +63,8 @@ https://scan.nel.group/
 https://litecoin-project.github.io/p2sh-convert/
 
 
-## 三、虚拟货币交易所相关
-#### 
+## 三、高可用相关
+#### [2019年最新总结，从程序员到CTO，从专业走向卓越，分享大牛企业内部pdf与PPT](https://github.com/trustex/from_coder_to_expert)
 
 
 
