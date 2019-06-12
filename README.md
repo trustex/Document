@@ -94,6 +94,7 @@ https://litecoin-project.github.io/p2sh-convert/
 ###### 3. java2s http://www.java2s.com/
 ###### 4. [国内外知名技术博客](bolg_box.md)
 ###### 5. [BAT技术面试题收集](https://github.com/trustex/Document/tree/master/interview_topics)
+###### 6. [秦金卫(KimmKing)博客](http://kimmking.github.io)
 #
 # 七、Forked 项目说明
 #### 1. [node-note-of-interview-互联网面试](https://github.com/trustex/note-of-interview) 
