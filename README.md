@@ -89,12 +89,13 @@ https://litecoin-project.github.io/p2sh-convert/
 # 
 # 
 ## 六、相关参考 
-###### 1. [Git常用命令](http://www.cnblogs.com/chenwolong/p/GIT.html)
-###### 2. [MD语法](https://www.cnblogs.com/liugang-vip/p/6337580.html)
-###### 3. java2s http://www.java2s.com/
-###### 4. [国内外知名技术博客](bolg_box.md)
-###### 5. [BAT技术面试题收集](https://github.com/trustex/Document/tree/master/interview_topics)
-###### 6. [秦金卫(KimmKing)博客](http://kimmking.github.io)
+###### 1. [推荐书单](book-list.md)
+###### 2. [Git常用命令](http://www.cnblogs.com/chenwolong/p/GIT.html)
+###### 3. [MD语法](https://www.cnblogs.com/liugang-vip/p/6337580.html)
+###### 4. java2s http://www.java2s.com/
+###### 5. [国内外知名技术博客](bolg_box.md)
+###### 6. [BAT技术面试题收集](https://github.com/trustex/Document/tree/master/interview_topics)
+###### 7. [秦金卫(KimmKing)博客](http://kimmking.github.io)
 #
 # 七、Forked 项目说明
 #### 1. [node-note-of-interview-互联网面试](https://github.com/trustex/note-of-interview) 
