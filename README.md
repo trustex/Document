@@ -117,7 +117,7 @@ https://litecoin-project.github.io/p2sh-convert/
 #### 15. [node-WEB前端学习笔记和感悟](https://github.com/trustex/study-notes) 
 #### 16. [node-JS笔记](https://github.com/trustex/zhubangbang-javascript-notes) 
 #### 17. [node-notepad-JS的实现本地存储的记事本](https://github.com/trustex/notepad) 
-####### 基于vue2.0+vuex+localStorage+sass+webpack，实现一个本地存储的记事本。兼容PC端和移动端。
+###### 基于vue2.0+vuex+localStorage+sass+webpack，实现一个本地存储的记事本。兼容PC端和移动端。
 #
 #
 #### 18. [node-Web3.js、Solidity、Truffle开发教程及以太坊开发资源汇总](https://github.com/trustex/awesome-ethereum-cn) 
