@@ -67,6 +67,8 @@ https://litecoin-project.github.io/p2sh-convert/
 ## 三、高可用相关
 #### [2019年最新总结，从程序员到CTO，从专业走向卓越，分享大牛企业内部pdf与PPT](https://github.com/trustex/Document/tree/master/%E6%9E%B6%E6%9E%84%E5%B8%88)
 
+#### [高可用高并发解决方案](high-concurrency.md)
+
 ## 四、数字货币交易所相关开源整理
 ##### 1. EthersWallet-ios
 ##### 2. trust-wallet-ios
