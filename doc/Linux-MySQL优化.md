@@ -21,6 +21,10 @@ http://www.mamicode.com/info-detail-2389110.html
 https://blog.51cto.com/11243465/2104885
 
 ## 二、MySQL 管理与优化
+
+#### 从原则、方案、策略及难点阐述分库分表 
+https://www.cnblogs.com/taozi32/p/9956362.html
+
 #### MySQL性能优化技巧
 https://www.cnblogs.com/moonlightL/p/7634294.html
 
