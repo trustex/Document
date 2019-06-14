@@ -40,6 +40,7 @@
 获取新地址：personal.newAccount()
 解锁地址：personal.unlockAccount("地址")
 查询余额：eth.getBalance("地址")
+节点信息：admin.peers
 ```
 #### （5）转账
 ##### 转账说明：
