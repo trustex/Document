@@ -23,6 +23,9 @@
 #### 查看内核2
 `uname -a`
 
+#### 修改时间为 CTS
+`sudo cp /usr/share/zoneinfo/Asia/Shanghai  /etc/localtime`
+
 ### （1）磁盘分区
 #### 分区
 ```
