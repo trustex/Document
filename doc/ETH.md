@@ -19,6 +19,7 @@
 ##### ETH
 ######  源码地址：https://github.com/ethereum/go-ethereum
 ######  BIN包：https://geth.ethereum.org/downloads/
+###### 1.8.27 https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.8.27-4bcc0a37.tar.gz
 
 ##### 
 ##### ETC
