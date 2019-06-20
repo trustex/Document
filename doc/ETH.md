@@ -8,6 +8,7 @@
 #### API手册2：https://www.orchome.com/958
 #### API介绍：https://blog.51cto.com/iceman123/2089540
 #### 简书文档-以太坊文档整理：https://www.jianshu.com/p/3445ff08229a
+#### Geth命令说明 https://www.cnblogs.com/tinyxiong/p/7918706.html
 
 
 ### ETC以太经典钱包运维
@@ -28,6 +29,15 @@
 
 #### （2）启动
 `./geth --syncmode fast --rpc --rpcaddr "内网IP" --rpcport "RPC端口"  --rpcapi "db,eth,net,web3,personal,admin" --cache=2048 --maxpeers 10000 2>>geth.log &`
+
+##### 其他参数
+```
+--datadir=/data/eth/ethereum \
+--syncmode light \
+--port "30308" \
+--rpcport "2308"\
+--rpcapi "db,eth,net,web3,personal,admin" 
+```
 
 #### （3）登陆
 `./geth attach 'http://ip:rpc端口'`
