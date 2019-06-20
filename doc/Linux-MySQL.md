@@ -91,7 +91,7 @@ port=3306
 ```
 [client]
 port = 3306
-socket = /var/run/mysqld/mysqld.sock             #登陆MySQL客户端读取的socket文件
+socket = /tmp/mysql5.sock             #登陆MySQL客户端读取的socket文件
  
 [mysqld]
 sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
