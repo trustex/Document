@@ -68,8 +68,12 @@ ln -s /usr/local/rz/bin/lsz /usr/local/rz/bin/sz
 
 ##### 服务端上传:
 `rz -y`
+
 ##### 服务端下载：
 `sz test.tar.gz`
+
+##### rsync文件同步
+`rsync -vzrtopg --progress -e 'ssh -p 22' 用户名@srv-ip:/home/ubuntu/bost/ ./`
 
 ### （4）ubuntu的Java环境变量配置
 /etc/profile新增以下内容：
