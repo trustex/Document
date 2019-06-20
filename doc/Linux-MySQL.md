@@ -88,3 +88,9 @@ cd /usr/local/mysql
 bin/mysqld --defaults-file=/etc/my.cnf --initialize-insecure --user=mysql
 ```
 
+#### 启动脚本
+```
+cd support-files
+cp mysql.server /etc/init.d/mysql
+/etc/init.d/mysq start
+```
