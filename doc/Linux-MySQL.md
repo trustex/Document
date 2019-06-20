@@ -131,9 +131,7 @@ ft_min_word_len = 8
 thread_stack = 512K
 transaction_isolation = REPEATABLE-READ
 tmp_table_size = 128M
-#log-bin=mysql-bin
-long_query_time = 6
- 
+#log-bin=mysql-bin 
 server_id=1
  
 innodb_buffer_pool_size = 1G
