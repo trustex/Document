@@ -71,5 +71,20 @@ cmake . \
 -DWITH_BOOST=boost/boost_1_59_0/
 ```
 
+### （4）MySQL5.7初始化
+#### 编辑/etc/my.cnf
+```
+[mysqld]
+basedir=/usr/local/mysql5
+datadir=/usr/local/mysql5/data
+#default-character-server=utf8
+character-set-server=utf8
+port=3306
+```
 
+#### 初始化
+```
+cd /usr/local/mysql
+bin/mysqld --defaults-file=/etc/my.cnf --initialize-insecure --user=mysql
+```
 
