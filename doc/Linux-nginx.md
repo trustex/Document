@@ -17,7 +17,6 @@ apt-get install libpcre3 libpcre3-dev zlib1g-dev openssl libssl-dev
 ./configure --with-http_stub_status_module \
 --prefix=/usr/local/nginx \
 --with-http_ssl_module \
---with-openssl \
 --with-stream 
 make
 make install
