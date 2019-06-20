@@ -98,3 +98,6 @@ cd support-files
 cp mysql.server /etc/init.d/mysql
 /etc/init.d/mysq start
 ```
+
+#### 管理客户端
+`./bin/mysql -uroot -p -S /tmp/mysql.sock`
