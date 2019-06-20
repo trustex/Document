@@ -74,11 +74,15 @@ cmake . \
 ### （4）MySQL5.7初始化
 #### 编辑/etc/my.cnf
 ```
+[mysql]
+default-character-set=utf8
+ 
 [mysqld]
 basedir=/usr/local/mysql5
 datadir=/usr/local/mysql5/data
 #default-character-server=utf8
 character-set-server=utf8
+default-storage-engine=INNODB
 port=3306
 ```
 
