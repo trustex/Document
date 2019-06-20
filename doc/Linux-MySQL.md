@@ -96,10 +96,21 @@ socket = /tmp/mysql5.sock             #登陆MySQL客户端读取的socket文件
 [mysqld]
 sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
 basedir = /usr/local/mysql5       #MySQL的home路径
-datadir = /usr/local/mysql5/data/               #MySQL的数据存放目录
+datadir = /usr/local/mysql5/data/  #MySQL的数据存放目录
 port = 3306
 socket = /tmp/mysql5.sock          #mysqld启动时读取的socket文件
 character-set-server=utf8
+
+default-storage-engine=INNODB
+
+#slow search
+slow_query_log=ON
+slow_query_log_file=/usr/local/logs/mysql5-slow.log
+long_query_time=2
+
+log-queries-not-using-indexes=ON
+
+log_error=/usr/local/logs/mysql5.log
  
 back_log = 300
 max_connections = 3000
