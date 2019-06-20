@@ -49,7 +49,7 @@ cd /usr/local/mysql56
 sudo scripts/mysql_install_db -user=mysql -basedir=/usr/local/mysql56 –datadir=/mydata/data3306/
 ```
 
-##### MySQL 5.7
+### （3）MySQL5.7
 ```
 wget http://mirrors.163.com/mysql/Downloads/MySQL-5.7/mysql-boost-5.7.26.tar.gz 
 tar zxvf mysql-boost-5.7.26.tar.gz 
