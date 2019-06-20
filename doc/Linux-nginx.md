@@ -8,6 +8,10 @@
 yum install gcc bison openssl openssl-devel  zip unzip
 ```
 
+```
+apt-get install libpcre3 libpcre3-dev zlib1g-dev openssl libssl-dev 
+```
+
 ### （1）编译1
 ```
 ./configure --with-http_stub_status_module \
