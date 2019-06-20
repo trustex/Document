@@ -101,3 +101,6 @@ cp mysql.server /etc/init.d/mysql
 
 #### 管理客户端
 `./bin/mysql -uroot -p -S /tmp/mysql.sock`
+
+#### 修改root密码
+`set password=password('新密码');`
