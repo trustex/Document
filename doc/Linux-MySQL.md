@@ -80,10 +80,82 @@ default-character-set=utf8
 [mysqld]
 basedir=/usr/local/mysql5
 datadir=/usr/local/mysql5/data
+socket = /tmp/mysql5.sock
 #default-character-server=utf8
 character-set-server=utf8
 default-storage-engine=INNODB
 port=3306
+```
+
+#### my.cnf 优化
+```
+[client]
+port = 3306
+socket = /var/run/mysqld/mysqld.sock             #登陆MySQL客户端读取的socket文件
+ 
+[mysqld]
+sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
+basedir = /usr/local/mysql5       #MySQL的home路径
+datadir = /usr/local/mysql5/data/               #MySQL的数据存放目录
+port = 3306
+socket = /tmp/mysql5.sock          #mysqld启动时读取的socket文件
+character-set-server=utf8
+ 
+back_log = 300
+max_connections = 3000
+max_connect_errors = 50
+table_open_cache = 4096
+max_allowed_packet = 32M
+#binlog_cache_size = 4M
+ 
+max_heap_table_size = 128M
+read_rnd_buffer_size = 16M
+sort_buffer_size = 16M
+join_buffer_size = 16M
+thread_cache_size = 16
+query_cache_size = 128M
+query_cache_limit = 4M
+ft_min_word_len = 8
+ 
+thread_stack = 512K
+transaction_isolation = REPEATABLE-READ
+tmp_table_size = 128M
+#log-bin=mysql-bin
+long_query_time = 6
+ 
+server_id=1
+ 
+innodb_buffer_pool_size = 1G
+innodb_thread_concurrency = 16
+innodb_log_buffer_size = 16M
+ 
+innodb_log_file_size = 512M
+innodb_log_files_in_group = 3
+innodb_max_dirty_pages_pct = 90
+innodb_lock_wait_timeout = 120
+innodb_file_per_table = on
+ 
+[mysqldump]
+quick
+ 
+max_allowed_packet = 32M
+ 
+[mysql]
+no-auto-rehash
+default-character-set=utf8
+safe-updates
+ 
+[myisamchk]
+key_buffer = 16M
+sort_buffer_size = 16M
+read_buffer = 8M
+write_buffer = 8M
+ 
+[mysqlhotcopy]
+interactive-timeout
+ 
+[mysqld_safe]
+open-files-limit = 8192
 ```
 
 #### 初始化
@@ -100,7 +172,7 @@ cp mysql.server /etc/init.d/mysql
 ```
 
 #### 管理客户端
-`./bin/mysql -uroot -p -S /tmp/mysql.sock`
+`./bin/mysql -uroot -p -S /tmp/mysql5.sock`
 
 #### 修改root密码
 `set password=password('新密码');`
