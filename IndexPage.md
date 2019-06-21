@@ -14,4 +14,4 @@
 [Centos下载](http://vault.centos.org/)
 [163.com下载](http://mirrors.163.com/)
 [阿里下载](https://opsx.alibaba.com/mirror)
-[docker-hub](https://hub.docker.com/)
+[Docker Hub](https://hub.docker.com/)
