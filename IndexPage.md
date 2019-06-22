@@ -1,5 +1,6 @@
 [百度](https//www.baidu.com) 
 [百度翻译](https://fanyi.baidu.com) 
+[百度脑图](http://naotu.baidu.com/home)
 [Github](https://github.com/) 
 [CMC](https://coinmarketcap.com/)
 
