@@ -3,6 +3,8 @@
 [百度脑图](http://naotu.baidu.com/home)
 [Github](https://github.com/) 
 [CMC](https://coinmarketcap.com/)
+[AWS中国](https://www.amazonaws.cn)
+[AWS海外](https://aws.amazon.com)
 
 
 ## 工作台
