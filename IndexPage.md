@@ -7,6 +7,9 @@
 [AWS海外](https://aws.amazon.com)
 [阿里企业邮](https://qiye.aliyun.com/alimail/)
 [MXC](https://www.mxc.com/)
+[BiKi](https://www.biki.com/)
+[ZG](https://www.zg.com/)
+[WBF](https://www.wbfex.com)
 
 
 ## 工作台
