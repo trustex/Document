@@ -41,3 +41,4 @@
 [DockerHub](https://hub.docker.com/)
 [腾讯SSL](https://cloud.tencent.com/product/ssl) 
 [AWS SSL](https://amazonaws-china.com/cn/certificate-manager/) 
+[Redis](http://download.redis.io/releases/)
