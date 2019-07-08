@@ -24,8 +24,8 @@
 [MD5](http://tool.chinaz.com/tools/md5.aspx)
 [JSON.CN](json.sn)
 [Remix](http://remix.ethereum.org/)
-[Gitlab](http://52.81.77.176:6888/)
-[Jira](http://54.223.92.223:8888)
+[Gitlab](http://git.wbfex.info:6888/)
+[Jira](http://jira.wbfex.info:8888)
 
 ## 区块浏览器
 [BTC](https://btc.com/)
