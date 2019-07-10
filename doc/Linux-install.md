@@ -107,3 +107,6 @@ net.ipv4.tcp_fin_timeout=30
 ```
 #### 然后执行
 `/sbin/sysctl -p`
+
+#### SSH pem->pub
+`ssh-keygen -e -f key.pem >> key.pem.pub`
