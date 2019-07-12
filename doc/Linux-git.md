@@ -4,6 +4,7 @@
 #### Git命令行基本操作 https://www.cnblogs.com/tocy/p/git-command-line-manual.html
 #### Linux下Git和GitHub使用方法总结 https://www.cnblogs.com/duwanjiang/p/5921167.html
 #### Github 的搭建和配置github中的SSH key值 https://blog.csdn.net/huang3513/article/details/52837075
+#### Gitlab 换localhost为域名 https://www.cnblogs.com/kaneyang/p/7090923.html
 
 ### 添加文件
 `git add dir/file`
