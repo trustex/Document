@@ -8,6 +8,7 @@
 [阿里企业邮](https://qiye.aliyun.com/alimail/)
 
 ### 
+[Huobi](https://www.huobi.co/zh-cn/)
 [MXC](https://www.mxc.com/)
 [BiKi](https://www.biki.com/)
 [ZG](https://www.zg.com/)
