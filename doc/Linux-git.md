@@ -12,6 +12,8 @@
 #### 提交
 `git commit -m 'demo'`
 
+`vi /opt/gitlab/embedded/service/gitlab-rails/config/gitlab.yml`
+
 #### 上传
 `git push`
 
