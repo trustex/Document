@@ -42,4 +42,32 @@
 ## 类似币种
 #### [TELOS](TELOS.md)
 
+## 参考 http://www.kjson.com/a/archives/tuijian/111
+```
+./cleos.sh --wallet-url http://127.0.0.1:8888 -u http://dev.cryptolions.io:38888 push action testtest4455 create '["testtest4455", "1000000.00000000 TKT", 0,0,0]' -p testtest4455
 
+购买内存：
+	./cleos.sh system buyram manor manor "100 EOS"
+
+抵押net，cpu
+	./cleos.sh system delegatebw bitkereosadd bitkereosadd "13.0000 EOS" "2.0000 EOS"
+	./cleos.sh system delegatebw bitkereosout bitkereosout "20.0000 EOS" "2.0000 EOS"
+	
+	./cleos.sh system undelegatebw bitkereosadd bitkereosadd "12.0000 EOS" "0.0001 EOS"
+	./cleos.sh system undelegatebw bitkereosout bitkereosout "18.0000 EOS" "0.0001 EOS"
+	
+	./cleos.sh system delegatebw bitkereosadd bitkereosadd "0.0001 EOS" "15.0000 EOS"
+	./cleos.sh system delegatebw bitkereosout bitkereosout "0.0001 EOS" "5.0000 EOS"
+ 
+发布官方合约：
+	./cleos.sh set contract manor /usr/local/dataroot/gtc/eos/eos/build/contracts/eosio.token/
+ 
+设置代币上限：
+	./cleos.sh push action manor create '["manor", "1000000.0000 BITKER", 0,0,0]' -p manor
+ 
+发行代币：
+	./cleos.sh push action manor issue '["manor", "1000000.0000 BITKER", "issue"]' -p manor
+ 
+代币转账：
+	./cleos.sh push action manor transfer '["manor", "eric", "100.0001 BITKER", "test bitker"]' -p manor
+```
