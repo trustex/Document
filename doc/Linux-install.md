@@ -111,3 +111,5 @@ net.ipv4.tcp_fin_timeout=30
 
 #### SSH pem->pub
 `ssh-keygen -e -f key.pem >> key.pem.pub`
+
+`ssh-keygen -t rsa -C "lilvhua@wbf.io"`
