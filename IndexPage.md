@@ -31,6 +31,7 @@
 
 ## 区块浏览器
 [BTC](https://btc.com/)
+[USDT](https://www.omniexplorer.info/asset/31)
 [BCH](https://bch.btc.com/)
 [ETH1](https://eth.btc.com/)
 [ETH2](https://etherscan.io/)
