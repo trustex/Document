@@ -7,9 +7,12 @@
 
 #### 1、以root用户登录，更改ssh配置文件 /etc/ssh/sshd_config，去除以下配置的注释
 
+```
 RSAAuthentication yes #启用rsa认证
 PubkeyAuthentication yes #启用公钥私钥配对认证方式
 AuthorizedKeysFile .ssh/authorized_keys #公钥文件路径
+```
+
 #### 2、重启SSH服务
 `[root@server /]#systemctl restart sshd  //重启ssh服务`
 
