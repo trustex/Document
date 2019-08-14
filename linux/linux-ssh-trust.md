@@ -1,5 +1,7 @@
 
 ## Linux之间配置SSH互信（SSH免密码登录）
+## AWS更换密钥 
+https://blog.csdn.net/qq_26347283/article/details/78923552
 
 #### 为简化SSH过程，采用证书方式，免去SSH登入时需要输入账号密码的过程，具体操作如下：
 
