@@ -36,6 +36,7 @@
 [ETH1](https://eth.btc.com/)
 [ETH2](https://etherscan.io/)
 [EOS](https://bloks.io/)
+[LTC](https://chainz.cryptoid.info/ltc/)
 
 ## 资源
 [JDK下载](http://ghaffarian.net/downloads/Java/)
