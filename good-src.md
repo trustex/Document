@@ -21,5 +21,8 @@
 #### https://github.com/trustex/wechat-core
 #### 基于Java的轻量级微信公众号消息处理框架，使业务代码与微信消息处理框架代码解耦，并采用注解来简化开发！！！也算是本项目的一个小亮点吧！！
 
+#### https://github.com/trustex/memory-demo
+#### https://github.com/trustex/memory
+#### 超轻量级Java 持久化工具：memory的例子演示
 
 
