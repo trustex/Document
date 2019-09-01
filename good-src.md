@@ -7,4 +7,4 @@
 #### https://github.com/trustex/qt
 #### https://github.com/trustex/redtorch
 #### https://github.com/trustex/zheshiyigeniubidexiangmu
-#### 
+#### https://github.com/trustex/AnyQuant （未看过）
