@@ -1,3 +1,5 @@
+#### https://github.com/trustex/Crack-Edition-software-for-Mac
+#### （各类破解版Mac软件，客官进来看看有没有需要的，欢迎提交Issues，我会在第一时间为你更新）Collect all kinds of Mac cracking software and keep updating. If you do not find the software you need, please submit it in Issues and I will complete it the first time. If it helps you, take a like.~
 
 ####
 #### https://github.com/trustex/jfinal_cms
