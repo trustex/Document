@@ -2,6 +2,8 @@
 
 #### [Go 学习之路：Go 开发者博客、Go 微信公众号、Go 学习资料（文档、书籍、视频）](https://github.com/trustex/learning-golang)
 
+#### [开源项目推荐](https://github.com/trustex/Document/blob/master/good-src.md)
+
 ##
 
 ## 一、Linux 相关运维文档整理
