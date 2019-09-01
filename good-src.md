@@ -45,4 +45,5 @@
 #### https://github.com/trustex/JQuant
 #### JQuant是使用java语言编写的量化开发工具箱，使用JQuant可以获取股票数据，及各种常用指标和策略的计算。方便Java爱好者进行量化投资研究。 (不再更新)
 
-
+#### https://github.com/trustex/wallet
+#### 比特币 以太坊钱包（未看过）
