@@ -1,6 +1,8 @@
 # 关于 Linux & 区块链 & 数字货币交易所相关的文档整理
 
-#### [Go 学习之路：Go 开发者博客、Go 微信公众号、Go 学习资料（文档、书籍、视频）](https://github.com/trustex/learning-golang)##
+#### [Go 学习之路：Go 开发者博客、Go 微信公众号、Go 学习资料（文档、书籍、视频）](https://github.com/trustex/learning-golang)
+
+##
 
 ## 一、Linux 相关运维文档整理
 
