@@ -11,3 +11,15 @@
 
 #### https://github.com/trustex/blockchain--java
 #### 这是java版的简化示例区块链demo；另外还有kotlin版的；这个小demo能让你了解区块链中增加/效验Hash,增加工作量证明,增加/效验preHash,转账,利用webSocket技术实现节点之间的通信/同步/广播.
+
+#### https://github.com/trustex/APITestFramework
+#### 轻量的接口自动化测试框架，使用 Excel 数据源
+
+#### https://github.com/trustex/java-for-FutuOpenD
+#### java-for-FutuOpenD 富途的开源量化框架futuquant的java接口
+####
+#### https://github.com/trustex/wechat-core
+#### 基于Java的轻量级微信公众号消息处理框架，使业务代码与微信消息处理框架代码解耦，并采用注解来简化开发！！！也算是本项目的一个小亮点吧！！
+
+
+
