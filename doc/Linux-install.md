@@ -113,3 +113,13 @@ net.ipv4.tcp_fin_timeout=30
 `ssh-keygen -e -f key.pem >> key.pem.pub`
 
 `ssh-keygen -t rsa -C "lilvhua@wbf.io"`
+
+#### AWS 磁盘扩容
+```
+步骤：
+1：修改ec2对应的卷,设置需要的大小;等待同步...
+2:   登录ec2 里面使用 命令 lsblk 查看
+3：找到对应的硬盘 命令 sudo growpart /dev/nvme1n1 1
+4：resize2fs /dev/nvme1n1p1 既可
+5：df -Th查看
+```
