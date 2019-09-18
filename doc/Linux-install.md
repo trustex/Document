@@ -27,6 +27,33 @@
 #### 修改时间为 CTS
 `sudo cp /usr/share/zoneinfo/Asia/Shanghai  /etc/localtime`
 
+```
+、查看时区
+centos7：
+timedatectl|grep "Time zone"
+centos6：
+cat /etc/sysconfig/clock
+2、修改时区
+centos7：
+timedatectl set-timezone Asia/Shanghai # 设置系统时区为上海
+centos6：
+修改文件：
+/etc/sysconfig/clock 内容：
+ZONE="Asia/Shanghai"
+3、时间的修改
+安装ntp软件：
+yum install ntp -y
+同步命令：
+ntpdate asia.pool.ntp.org
+如果可以同步：
+加定时启动：
+/5 * /usr/sbin/ntpdate time.windows.com >/dev/null 2>&1
+时间服务器：
+asia.pool.ntp.org
+time.nist.gov
+time.nuri.net
+```
+
 ### （1）磁盘分区
 #### 分区
 ```
