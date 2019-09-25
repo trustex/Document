@@ -38,6 +38,7 @@
 [EOS](https://bloks.io/)
 [LTC](https://chainz.cryptoid.info/ltc/)
 [XRP](https://xrpscan.com)
+[VSC](http://www.vscexplorer.info/)
 
 ## 资源
 [JDK下载](http://ghaffarian.net/downloads/Java/)
