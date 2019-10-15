@@ -7,6 +7,7 @@
 [AWS中国](https://www.amazonaws.cn)
 [AWS海外](https://aws.amazon.com)
 [阿里企业邮](https://qiye.aliyun.com/alimail/)
+[FMZ](https://www.fmz.com)
 
 ### 
 [Huobi](https://www.huobi.co/zh-cn/)
