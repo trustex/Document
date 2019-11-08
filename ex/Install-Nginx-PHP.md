@@ -7,8 +7,9 @@ Centos 7.x
 #### https://www.cnblogs.com/vurtne-lu/p/7707536.html
 
 ### 脚本
+
+### 1、update system
 ```
-#update system
 yum install -y gcc gcc-c++ make sudo autoconf libtool-ltdl-devel gd-devel \
         freetype-devel libxml2-devel libjpeg-devel libpng-devel \
         openssl-devel curl-devel patch libmcrypt-devel \
@@ -20,10 +21,10 @@ yum -y install gcc gcc-c++ autoconf automake zlib zlib-devel openssl openssl-dev
 ```
 
 
-### Config MySQL 
+### 1、Config MySQL 
 `请参见 Install-MySQL`
 
-### Config Nginx
+### 2、Config Nginx
 ```
 ./configure \
             --prefix=/usr/local/nginx \
@@ -35,7 +36,7 @@ yum -y install gcc gcc-c++ autoconf automake zlib zlib-devel openssl openssl-dev
             --with-pcre
 ```
 
-### Config PHP
+### 3、Config PHP
 ```
 ./configure \
 --prefix=/usr/local/php5 \
