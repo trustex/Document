@@ -17,7 +17,8 @@ yum install -y gcc gcc-c++ make sudo autoconf libtool-ltdl-devel gd-devel \
         libcap-devel ntp sysklogd diffutils sendmail iptables unzip cmake
 
 yum -y update
-yum -y install gcc gcc-c++ autoconf automake zlib zlib-devel openssl openssl-devel pcre* make gd-devel libjpeg-devel libpng-devel libxml2-devel bzip2-devel libcurl-devel
+yum -y install gcc gcc-c++ autoconf automake zlib zlib-devel openssl openssl-devel pcre* \
+        make gd-devel libjpeg-devel libpng-devel libxml2-devel bzip2-devel libcurl-devel
 ```
 
 
