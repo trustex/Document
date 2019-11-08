@@ -1,6 +1,6 @@
 
 ## 系统要求
-CentOS7.x
+CentOS 7.x
 
 ## 安装
 ```
