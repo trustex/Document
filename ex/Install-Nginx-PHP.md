@@ -21,10 +21,10 @@ yum -y install gcc gcc-c++ autoconf automake zlib zlib-devel openssl openssl-dev
 ```
 
 
-### 1、Config MySQL 
+### 2、Config MySQL 
 `请参见 Install-MySQL`
 
-### 2、Config Nginx
+### 3、Config Nginx
 ```
 ./configure \
             --prefix=/usr/local/nginx \
@@ -36,7 +36,7 @@ yum -y install gcc gcc-c++ autoconf automake zlib zlib-devel openssl openssl-dev
             --with-pcre
 ```
 
-### 3、Config PHP
+### 4、Config PHP
 ```
 ./configure \
 --prefix=/usr/local/php5 \
