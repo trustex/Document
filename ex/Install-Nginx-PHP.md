@@ -8,7 +8,7 @@ Centos 7.x
 
 ### 脚本
 
-### 1、update system
+### 1、Update System
 ```
 yum install -y gcc gcc-c++ make sudo autoconf libtool-ltdl-devel gd-devel \
         freetype-devel libxml2-devel libjpeg-devel libpng-devel \
