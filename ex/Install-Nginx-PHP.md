@@ -17,11 +17,14 @@ yum install -y gcc gcc-c++ make sudo autoconf libtool-ltdl-devel gd-devel \
 
 yum -y update
 yum -y install gcc gcc-c++ autoconf automake zlib zlib-devel openssl openssl-devel pcre* make gd-devel libjpeg-devel libpng-devel libxml2-devel bzip2-devel libcurl-devel
+```
 
-#Config MySQL 
+
+### Config MySQL 
 `请参见 Install-MySQL`
 
-#Config Nginx
+### Config Nginx
+```
 ./configure \
             --prefix=/usr/local/nginx \
             --user=www \
@@ -30,8 +33,10 @@ yum -y install gcc gcc-c++ autoconf automake zlib zlib-devel openssl openssl-dev
             --with-http_v2_module \
             --with-http_stub_status_module \
             --with-pcre
-    
-#Config PHP
+```
+
+### Config PHP
+```
 ./configure \
 --prefix=/usr/local/php5 \
 --with-config-file-path=/usr/local/php5/etc \
