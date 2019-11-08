@@ -1,6 +1,6 @@
 
 ### 系统要求
-Centos 7.x
+CentOS 7.x
 
 ### 参考
 #### https://blog.csdn.net/nouswait/article/details/83105378
