@@ -3,8 +3,8 @@
 Centos 7.x
 
 ### 参考
-https://blog.csdn.net/nouswait/article/details/83105378
-https://www.cnblogs.com/vurtne-lu/p/7707536.html
+#### https://blog.csdn.net/nouswait/article/details/83105378
+#### https://www.cnblogs.com/vurtne-lu/p/7707536.html
 
 ### 脚本
 ```
