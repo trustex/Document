@@ -22,7 +22,7 @@ yum -y install gcc gcc-c++ autoconf automake zlib zlib-devel openssl openssl-dev
 
 
 ### 2、Config MySQL 
-请参见 Install-MySQL(Install-MySQL.md)
+请参见 [Install-MySQL](Install-MySQL.md)
 
 ### 3、Config Nginx
 ```
