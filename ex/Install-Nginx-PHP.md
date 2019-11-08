@@ -2,7 +2,11 @@
 ### 系统要求
 Centos 7.x
 
-###
+### 参考
+https://blog.csdn.net/nouswait/article/details/83105378
+https://www.cnblogs.com/vurtne-lu/p/7707536.html
+
+### 脚本
 ```
 #update system
 yum install -y gcc gcc-c++ make sudo autoconf libtool-ltdl-devel gd-devel \
