@@ -15,7 +15,6 @@
 ```
 yum install -y gcc gcc-c++ make jemalloc-devel epel-release
 wget http://download.redis.io/releases/redis-4.0.14.tar.gz
-
 ```
 
 ### 配置
