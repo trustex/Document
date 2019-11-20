@@ -1,6 +1,7 @@
 
 
 命令	描述
+```
 .backup ?DB? FILE	备份 DB 数据库（默认是 "main"）到 FILE 文件。
 .bail ON|OFF	发生错误后停止。默认为 OFF。
 .databases	列出数据库的名称及其所依附的文件。
@@ -14,23 +15,7 @@
 .indices ?TABLE?	显示所有索引的名称。如果指定了 TABLE 表，则只显示匹配 LIKE 模式的 TABLE 表的索引。
 .load FILE ?ENTRY?	加载一个扩展库。
 .log FILE|off	开启或关闭日志。FILE 文件可以是 stderr（标准错误）/stdout（标准输出）。
-.mode MODE	设置输出模式，MODE 可以是下列之一：
-csv 逗号分隔的值
-
-column 左对齐的列
-
-html HTML 的 <table> 代码
-
-insert TABLE 表的 SQL 插入（insert）语句
-
-line 每行一个值
-
-list 由 .separator 字符串分隔的值
-
-tabs 由 Tab 分隔的值
-
-tcl TCL 列表元素
-
+.mode MODE	设置输出模式
 .nullvalue STRING	在 NULL 值的地方输出 STRING 字符串。
 .output FILENAME	发送输出到 FILENAME 文件。
 .output stdout	发送输出到屏幕。
@@ -46,3 +31,4 @@ tcl TCL 列表元素
 .timeout MS	尝试打开锁定的表 MS 毫秒。
 .width NUM NUM	为 "column" 模式设置列宽度。
 .timer ON|OFF	开启或关闭 CPU 定时器。
+```
