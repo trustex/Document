@@ -1,6 +1,6 @@
 
 
-命令	描述
+### Sqlite3 命令描述
 ```
 .backup ?DB? FILE	备份 DB 数据库（默认是 "main"）到 FILE 文件。
 .bail ON|OFF	发生错误后停止。默认为 OFF。
