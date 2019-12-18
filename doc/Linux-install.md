@@ -13,6 +13,10 @@
 #### 阿里下载：https://opsx.alibaba.com/mirror
 
 ### 常用命令
+
+#### 过滤注释行
+'more www.conf |grep -v "^;"'
+
 #### 查看版本
 `cat /etc/issue`
 #### 查看版本完整信息
