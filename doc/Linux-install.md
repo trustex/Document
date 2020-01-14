@@ -154,3 +154,6 @@ net.ipv4.tcp_fin_timeout=30
 4：resize2fs /dev/nvme1n1p1 既可
 5：df -Th查看
 ```
+
+#### A1398换键盘
+https://v.youku.com/v_show/id_XOTQ3OTk1Nzgw.html?refer=seo_operation.liuxiao.liux_00003303_3000_Qzu6ve_19042900
