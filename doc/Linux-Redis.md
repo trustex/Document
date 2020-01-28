@@ -28,3 +28,7 @@ make PREFIX=/usr/local/redis install
 ### 启动
 `./bin/redis-server`
 
+
+### Web Admin
+#### https://github.com/mauersu/redis-admin
+`mvn clean package -Dmaven.test.skip=true`
