@@ -1,6 +1,8 @@
 
 ### Linux下RocketMQ的安装
-https://www.jianshu.com/p/912701cf1705
+#### https://www.jianshu.com/p/912701cf1705
+#### https://www.jianshu.com/p/d8a21ab2c2d3
+
 
 ### DOC
 ```
