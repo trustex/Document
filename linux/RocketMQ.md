@@ -16,3 +16,6 @@
 
 ### 安装web可视化客户端rocketmq-externals 
 https://github.com/apache/rocketmq-externals 
+
+### Nginx Auth
+#### https://www.cnblogs.com/sharesdk/p/11384122.html
