@@ -1,6 +1,11 @@
 
 ## RocketMQ运维手册
 
+### 注意事项
+#### (1)netty版本问题 （RocketMq4.5.2 对应netty 4.1.43）
+https://cloud.tencent.com/developer/article/1447341
+#### 
+
 #### 官网：http://rocketmq.apache.org/
 #### 快速指南：http://rocketmq.apache.org/docs/quick-start/
 
