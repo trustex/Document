@@ -8,6 +8,8 @@
 [AWS海外](https://aws.amazon.com)
 [阿里企业邮](https://qiye.aliyun.com/alimail/)
 [FMZ](https://www.fmz.com)
+[图怪兽](https://818ps.com/)
+[在线PS](https://www.uupoop.com/)
 
 ### 
 [Huobi](https://www.huobi.co/zh-cn/)
