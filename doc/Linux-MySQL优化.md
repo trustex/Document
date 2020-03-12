@@ -55,3 +55,9 @@ https://www.anquanke.com/post/id/158123
 
 #### 内网安全检查/渗透总结
 https://xz.aliyun.com/t/2354
+
+#### 探索Mysql锁机制(一)——乐观锁&悲观锁
+https://www.jianshu.com/p/ed896335b3b4
+
+#### 探索Mysql锁机制(二)——共享锁&排他锁&意向锁&间隙锁
+https://www.jianshu.com/p/904f52bde904
