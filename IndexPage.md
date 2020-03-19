@@ -57,7 +57,7 @@
 [JDK下载](http://ghaffarian.net/downloads/Java/)
 [Centos下载](http://vault.centos.org/)
 [163.com下载](http://mirrors.163.com/)
-[阿里下载](https://opsx.alibaba.com/mirror)
+[阿里下载](https://opsx.alibaba.com)
 [DockerHub](https://hub.docker.com/)
 [腾讯SSL](https://cloud.tencent.com/product/ssl) 
 [AWS SSL](https://amazonaws-china.com/cn/certificate-manager/) 
