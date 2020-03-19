@@ -63,3 +63,4 @@
 [AWS SSL](https://amazonaws-china.com/cn/certificate-manager/) 
 [Redis](http://download.redis.io/releases/)
 [PHP 下载](http://mirrors.sohu.com/php/)
+[Gitlab](https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/yum/el7/)
