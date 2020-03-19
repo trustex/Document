@@ -147,7 +147,7 @@ net.ipv4.tcp_fin_timeout=30
 
 #### SSH 生成公钥私钥对
 
-`[root@client /]#ssh-keygen -t rsa`
+`ssh-keygen -t rsa`
 
 #### AWS 磁盘扩容
 ```
