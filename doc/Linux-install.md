@@ -161,3 +161,12 @@ net.ipv4.tcp_fin_timeout=30
 
 #### A1398换键盘
 https://v.youku.com/v_show/id_XOTQ3OTk1Nzgw.html?refer=seo_operation.liuxiao.liux_00003303_3000_Qzu6ve_19042900
+
+#### MySQL for Centos7
+```
+wget http://repo.mysql.com/mysql57-community-release-el7-8.noarch.rpm
+
+rpm -ivh mysql57-community-release-el7-8.noarch.rpm
+
+yum install mysql-community-client
+```
