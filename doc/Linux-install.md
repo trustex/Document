@@ -129,8 +129,8 @@ root       soft    nproc     unlimited
 
 ##### vi /etc/profile
 ```
-ulimit -u 10000
-ulimit -n 4096
+ulimit -u 10240
+ulimit -n 10240
 ulimit -d unlimited
 ulimit -m unlimited
 ulimit -s unlimited
