@@ -66,3 +66,5 @@
 [Redis](http://download.redis.io/releases/)
 [PHP 下载](http://mirrors.sohu.com/php/)
 [Gitlab](https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/yum/el7/)
+[Redis下载](http://download.redis.io/releases/)
+
