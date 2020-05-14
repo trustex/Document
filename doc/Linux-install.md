@@ -127,6 +127,17 @@ root       soft    nproc     unlimited
 #*         hard    nofile    65535
 ```
 
+##### vi /etc/profile
+```
+ulimit -u 10000
+ulimit -n 4096
+ulimit -d unlimited
+ulimit -m unlimited
+ulimit -s unlimited
+ulimit -t unlimited
+ulimit -v unlimited
+```
+
 ### （6）网络优化
 #### 配置编辑
 `vi /etc/sysctl.conf`
