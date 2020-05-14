@@ -136,6 +136,9 @@ root       soft    nproc     unlimited
 net.ipv4.tcp_tw_reuse=1
 net.ipv4.tcp_syncookies=1
 net.ipv4.tcp_fin_timeout=30
+
+net.core.somaxconn = 4096
+vm.overcommit_memory=1
 ```
 #### 然后执行
 `/sbin/sysctl -p`
