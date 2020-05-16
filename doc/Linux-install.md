@@ -14,6 +14,9 @@
 
 ### 常用命令
 
+#### history 加日期
+`echo 'HISTTIMEFORMAT="%F %T "' >> /etc/profile`
+
 #### 过滤注释行
 'more www.conf |grep -v "^;"'
 
