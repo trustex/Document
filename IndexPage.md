@@ -57,6 +57,7 @@
 
 ## 资源
 [JDK下载](http://ghaffarian.net/downloads/Java/)
+[JDKDownload2](http://mirrors.linuxeye.com/jdk/md5sum.txt)
 [Centos下载](http://vault.centos.org/)
 [163.com下载](http://mirrors.163.com/)
 [阿里下载](https://opsx.alibaba.com)
