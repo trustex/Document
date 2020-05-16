@@ -69,4 +69,5 @@
 [Gitlab](https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/yum/el7/)
 [Redis下载](http://download.redis.io/releases/)
 [Nginx](http://nginx.org/packages/centos/7/)
+[mongodb](http://dl.mongodb.org/dl/linux/x86_64)
 
