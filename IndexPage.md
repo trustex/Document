@@ -23,7 +23,7 @@
 
 ## 工作台
 [Linux运维](https://github.com/trustex/Document/blob/master/doc/Linux-install.md)
-[ysctl优化](https://github.com/trustex/Document/blob/master/linux/sysctl-optimize.md)
+[Sysctl优化](https://github.com/trustex/Document/blob/master/linux/sysctl-optimize.md)
 [Git手册](https://github.com/trustex/Document/blob/master/doc/Linux-git.md)
 [TAPD](https://www.tapd.cn/my_worktable?left_tree=1#&filter_close=true)
 [MD](https://github.com/trustex/Document/blob/master/doc/md-doc.md)
