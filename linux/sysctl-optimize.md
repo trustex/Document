@@ -11,8 +11,9 @@ vm.dirty_ratio=50
 vm.dirty_writeback_centisecs=360000
 vm.page-cluster=3
 vm.swappiness=1
-sysctl -p
 ```
+
+`sysctl -p`
 
 #### 1.overcommit_memory
 ```
