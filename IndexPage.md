@@ -55,6 +55,7 @@
 
 ## 技术研究
 [TiDB](https://github.com/trustex/Document/blob/master/doc/TiDB.md)
+[Aliyun Java Auto Creator](https://start.aliyun.com/)
 
 ## 资源
 [JDK下载](http://ghaffarian.net/downloads/Java/)
