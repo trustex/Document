@@ -5,6 +5,7 @@
 #### Centos编译安装Apache/subversion1.9.7/httpd2.4.32 https://blog.51cto.com/liuhuiliang/2096497
 #### Linux下使用Google Authenticator配置SSH登录动态验证码 https://www.cnblogs.com/caoshousong/p/10474710.html
 #### Rsync https://www.cnblogs.com/JohnABC/p/6203524.html
+#### CENTOS7开机自启动脚本 https://www.cnblogs.com/longchengruoxi/p/11451062.html
 
 ### 常用包下载
 #### JDK： http://ghaffarian.net/downloads/Java/
@@ -13,6 +14,15 @@
 #### 阿里下载：https://opsx.alibaba.com/mirror
 
 ### 常用命令
+
+#### CENTOS7开机自启动脚本
+```
+mv  /usr/local/script/autostart.sh /etc/rc.d/init.d
+chmod +x  /etc/rc.d/init.d/autostart.sh
+cd /etc/rc.d/init.d
+chkconfig --add autostart.sh
+chkconfig autostart.sh on
+```
 
 #### history 加日期
 `echo 'HISTTIMEFORMAT="%F %T "' >> /etc/profile`
