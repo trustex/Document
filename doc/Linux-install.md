@@ -5,7 +5,7 @@
 #### Centos编译安装Apache/subversion1.9.7/httpd2.4.32 https://blog.51cto.com/liuhuiliang/2096497
 #### Linux下使用Google Authenticator配置SSH登录动态验证码 https://www.cnblogs.com/caoshousong/p/10474710.html
 #### Rsync https://www.cnblogs.com/JohnABC/p/6203524.html
-#### CENTOS7开机自启动脚本 https://www.cnblogs.com/longchengruoxi/p/11451062.html
+#### CENTOS7开机自启动脚本 https://www.cnblogs.com/longchengruoxi/p/11451062.html https://blog.51cto.com/12173069/2118590
 
 ### 常用包下载
 #### JDK： http://ghaffarian.net/downloads/Java/
