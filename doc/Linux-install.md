@@ -136,6 +136,13 @@ export PATH=$JAVA_HOME/bin:$PATH
 *          soft    nproc     65535
 root       soft    nproc     unlimited
 
+* soft nofile 65535
+* hard nofile 65535
+
+*          soft    nproc     65535
+root       soft    nproc     unlimited
+~
+
 #*         soft    nofile    65535
 #*         hard    nofile    65535
 ```
