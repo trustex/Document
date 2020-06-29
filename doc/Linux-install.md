@@ -128,7 +128,7 @@ export CLASSPATH=.:$JAVA_HOME/lib:$CLASSPATH
 export PATH=$JAVA_HOME/bin:$PATH
 ```
 
-### （5）ulimit配置 (ulimit -a)
+### （5）ulimit配置 (ulimit -a ulimit -SHn 65535)
 #### ulimit配置说明：https://blog.csdn.net/linucle/article/details/8450980
 ```
 #/etc/security/limits.conf
