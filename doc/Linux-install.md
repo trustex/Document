@@ -185,6 +185,7 @@ vm.overcommit_memory=1
 #### SSH 生成公钥私钥对
 
 `ssh-keygen -t rsa`
+`ssh-keygen -t rsa -m pem`
 
 #### AWS 磁盘扩容
 ```
