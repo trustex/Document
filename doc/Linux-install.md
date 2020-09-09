@@ -206,5 +206,6 @@ wget http://repo.mysql.com/mysql57-community-release-el7-8.noarch.rpm
 
 rpm -ivh mysql57-community-release-el7-8.noarch.rpm
 
+#yum -y install mysql-community-server
 yum install mysql-community-client
 ```
