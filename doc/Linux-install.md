@@ -120,6 +120,9 @@ ln -s /usr/local/rz/bin/lsz /usr/local/rz/bin/sz
 ##### rsync文件同步
 `rsync -vzrtopg --progress -e 'ssh -p 22' 用户名@srv-ip:/home/ubuntu/bost/ ./`
 
+##### Tmux
+`yum install tmux`
+
 ### （4）ubuntu的Java环境变量配置
 /etc/profile新增以下内容：
 ```
