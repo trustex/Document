@@ -6,6 +6,9 @@
 #### Github 的搭建和配置github中的SSH key值 https://blog.csdn.net/huang3513/article/details/52837075
 #### Gitlab 换localhost为域名 https://www.cnblogs.com/kaneyang/p/7090923.html
 
+### Linux Auto pass
+#### https://www.cnblogs.com/liangweiping/p/10277604.html
+
 ### 添加文件
 `git add dir/file`
 
