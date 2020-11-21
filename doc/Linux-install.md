@@ -6,6 +6,7 @@
 #### Linux下使用Google Authenticator配置SSH登录动态验证码 https://www.cnblogs.com/caoshousong/p/10474710.html
 #### Rsync https://www.cnblogs.com/JohnABC/p/6203524.html
 #### CENTOS7开机自启动脚本 https://www.cnblogs.com/longchengruoxi/p/11451062.html https://blog.51cto.com/12173069/2118590
+#### NFS https://www.cnblogs.com/lixiuran/p/7117000.html
 
 ### 常用包下载
 #### JDK： http://ghaffarian.net/downloads/Java/
