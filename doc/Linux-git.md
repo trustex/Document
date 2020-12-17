@@ -9,6 +9,12 @@
 ### Linux Auto pass
 #### https://www.cnblogs.com/liangweiping/p/10277604.html
 
+### clone master
+`git clone http://xxx/xxx.git`
+
+### clone br
+`git clone -b v1.1-dev http://xxx/xxx.git`
+
 ### 添加文件
 `git add dir/file`
 
