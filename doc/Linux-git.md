@@ -12,7 +12,7 @@
 ### clone master
 `git clone http://xxx/xxx.git`
 
-### clone br
+### clone branch
 `git clone -b v1.1-dev http://xxx/xxx.git`
 
 ### 添加文件
