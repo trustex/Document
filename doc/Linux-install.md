@@ -201,6 +201,12 @@ vm.overcommit_memory=1
 5：df -Th查看
 ```
 
+## linux 查看文件去掉注释"#"和";"
+```
+grep -v "#"  /etc/samba/smb.conf  
+grep -v "#"  /etc/samba/smb.conf   |  grep -v  ";"
+```
+
 #### A1398换键盘
 https://v.youku.com/v_show/id_XOTQ3OTk1Nzgw.html?refer=seo_operation.liuxiao.liux_00003303_3000_Qzu6ve_19042900
 
