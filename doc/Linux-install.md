@@ -1,6 +1,7 @@
 
 ## Linux系统运维手册/相关优化
 
+#### 解决kdevtmpfsi过程总结  https://cloud.tencent.com/developer/article/1562294
 #### Linux搭建Nexus2/Maven私服 https://blog.csdn.net/qq_36911145/article/details/82905299
 #### Centos编译安装Apache/subversion1.9.7/httpd2.4.32 https://blog.51cto.com/liuhuiliang/2096497
 #### Linux下使用Google Authenticator配置SSH登录动态验证码 https://www.cnblogs.com/caoshousong/p/10474710.html
