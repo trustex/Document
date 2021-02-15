@@ -77,4 +77,5 @@
 [Nginx](http://nginx.org/packages/centos/7/)
 [mongodb](http://dl.mongodb.org/dl/linux/x86_64)
 [RocketMQ](https://mirrors.tuna.tsinghua.edu.cn/apache/rocketmq/)
+[YAPI](https://github.com/ymfe/yapi)
 
