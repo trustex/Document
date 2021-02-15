@@ -78,4 +78,5 @@
 [mongodb](http://dl.mongodb.org/dl/linux/x86_64)
 [RocketMQ](https://mirrors.tuna.tsinghua.edu.cn/apache/rocketmq/)
 [YAPI](https://github.com/ymfe/yapi)
+[YAPI DOC](https://hellosean1025.github.io/yapi/documents/index.html)
 
