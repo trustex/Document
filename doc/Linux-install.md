@@ -27,6 +27,12 @@ chkconfig --add autostart.sh
 chkconfig autostart.sh on
 ```
 
+#### centos7 Java日志乱码
+```
+export LANG='POSIX'
+export LC_CTYPE='zh_CN.UTF-8'
+```
+
 #### history 加日期
 `echo 'HISTTIMEFORMAT="%F %T "' >> /etc/profile`
 
