@@ -1,6 +1,7 @@
 
 ## Linux系统运维手册/相关优化
 
+#### ubuntu iptables https://www.cnblogs.com/xwgcxk/p/10820518.html
 #### 解决kdevtmpfsi过程总结  https://cloud.tencent.com/developer/article/1562294
 #### Docker常用命令整理 https://www.dllhook.com/post/234.html
 #### Linux搭建Nexus2/Maven私服 https://blog.csdn.net/qq_36911145/article/details/82905299
