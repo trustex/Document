@@ -228,3 +228,14 @@ rpm -ivh mysql57-community-release-el7-8.noarch.rpm
 #yum -y install mysql-community-server
 yum install mysql-community-client
 ```
+
+
+##### Inited MySQL root pass
+```
+grep 'temporary password' /var/log/mysqld.log
+
+mysql -u root -p
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY '@abcd123456'; 
+
+```
