@@ -191,6 +191,8 @@ vm.overcommit_memory=1
 #### 然后执行
 `/sbin/sysctl -p`
 
+`netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'`
+
 #### SSH pem->pub
 `ssh-keygen -e -f key.pem >> key.pem.pub`
 
