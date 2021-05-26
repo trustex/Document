@@ -38,7 +38,7 @@ bee start \
 –clef-signer-endpoint=/var/lib/bee-clef/clef.ipc
 ```
 
-## （5）按提示，给指定地址充值1个gbzz和0.05个geth
+## （5）按日志提示，给指定地址充值1个gbzz和0.05个geth
 
 ## （6）节点实时出票信息查看
 ```
