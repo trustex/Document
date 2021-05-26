@@ -55,11 +55,14 @@ bee start \
 –clef-signer-endpoint=/var/lib/bee-clef/clef.ipc
 ```
 
-## （6）节点实时出票信息查看
+## （6）本地实时出票信息查看
+`curl localhost:1635/chequebook/cheque | jq`
+
+## （7）第三方平台节点实时出票信息查看
 ```
 http://swarm.xidusoft.com/swarm/bee/info/42.192.97.220/1635
 将42.192.97.220换成你的服务器IP地址即可。
 ```
-## （7）多节点安装启动脚本请加微信群获取技术支持。
+## （8）多节点安装启动脚本请加微信群获取技术支持。
 
 ###### 技术支持网站 https://xidusoft.com
