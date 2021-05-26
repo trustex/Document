@@ -27,7 +27,24 @@ rpm -i bee_0.6.1_amd64.rpm
 ## 升级执行 rpm -Uvh bee_0.6.1_amd64.rpm
 ```
 
-## （4）启动 bee 节点 (一个gbzz就可以启动)
+## （4）获取钱地址
+#### 执行命令
+`bee-get-addr`
+
+#### 输出信息如下
+```
+Please make sure there is sufficient ETH and BZZ available on the node's Ethereum address: 42d011b625151ff4bb0bfb753a71a567e7dda1df.
+
+Learn how to fund your node by visiting our docs at at https://docs.ethswarm.org/docs/installation/fund-your-node
+
+Once the node's wallet has received the funds it will begin joining the Swarm network.
+
+See the docs for more at https://docs.ethswarm.org/docs/.
+```
+#### 钱包地址
+`0x42d011b625151ff4bb0bfb753a71a567e7dda1df`
+
+## （5）启动 bee 节点 (1个gbzz 和 0.05 个eth 就可以启动)
 ```
 bee start \
 –verbosity 5 \
@@ -37,8 +54,6 @@ bee start \
 –clef-signer-enable \
 –clef-signer-endpoint=/var/lib/bee-clef/clef.ipc
 ```
-
-## （5）按日志提示，给指定地址充值1个gbzz和0.05个geth
 
 ## （6）节点实时出票信息查看
 ```
