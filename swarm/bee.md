@@ -45,6 +45,6 @@ http://swarm.xidusoft.com/swarm/bee/info/42.192.97.220/1635
 ```
 ## （6）多节点安装启动脚本请加微信群获取技术支持。
 
-## 资源地址 https://xidusoft.com/?page_id=73
-## 技术支持网站 https://xidusoft.com
-## Saas节点管理系统 https://swarm.xidusoft.com
+###### 资源地址 https://xidusoft.com/?page_id=73
+###### 技术支持网站 https://xidusoft.com
+###### Saas节点管理系统 https://swarm.xidusoft.com
