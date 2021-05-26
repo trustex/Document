@@ -41,7 +41,7 @@ Once the node's wallet has received the funds it will begin joining the Swarm ne
 
 See the docs for more at https://docs.ethswarm.org/docs/.
 ```
-#### 钱包地址
+#### 钱包地址类似（注以下是我的钱包地址，从上面输出找你的钱包地址）
 `0x42d011b625151ff4bb0bfb753a71a567e7dda1df`
 
 ## （5）启动 bee 节点 (1个gbzz 和 0.05 个eth 就可以启动)
