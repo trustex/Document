@@ -1,5 +1,5 @@
 
-# Centos7 快速安装 Swarm Bee
+# Centos7 快速安装 Swarm Bee(含多节点启动脚本)
 
 ## （1）安装支持组件
 ```
