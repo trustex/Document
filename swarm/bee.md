@@ -115,7 +115,7 @@ http://swarm.xidusoft.com/swarm/bee/info/42.192.97.220/1635
 将42.192.97.220换成你的服务器IP地址即可。
 ```
 
-## （8）swap问题
+## （8）swap-endpoint 问题
 ```
 --swap-endpoint 
 (1) 不能使用或出错的去infura网站申请免费的 https://infura.io/
