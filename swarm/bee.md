@@ -55,7 +55,7 @@ bee start \
 –clef-signer-enable \
 –clef-signer-endpoint=/var/lib/bee-clef/clef.ipc
 ```
-#### 多结果 
+#### 多节点
 ##### 脚本 muti-node-start.sh
 ```
 #!/bin/bash
