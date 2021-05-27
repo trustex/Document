@@ -45,6 +45,7 @@ See the docs for more at https://docs.ethswarm.org/docs/.
 `0x42d011b625151ff4bb0bfb753a71a567e7dda1df`
 
 ## （5）启动 bee 节点 (1个gbzz 和 0.05 个eth 就可以启动)
+#### 单节点
 ```
 bee start \
 –verbosity 5 \
@@ -53,6 +54,44 @@ bee start \
 –debug-api-enable \
 –clef-signer-enable \
 –clef-signer-endpoint=/var/lib/bee-clef/clef.ipc
+```
+#### 多结果 
+##### 脚本 muti-node-start.sh
+```
+#!/bin/bash
+
+pnum=$1
+
+if [ "$pnum" = "" ]; then
+    echo "please input note number!"
+    exit 1
+fi
+
+PORT1=$((pnum+1660))
+PORT2=$((pnum+1760))
+PORT3=$((pnum+1860))
+
+bee start \
+  --verbosity 5 \
+  --swap-initial-deposit 10000000000000000 \
+  --swap-endpoint https://rpc.slock.it/goerli \
+  --debug-api-enable \
+  --clef-signer-enable \
+  --clef-signer-endpoint=/var/lib/bee-clef/clef.ipc \
+  --api-addr ":${PORT1}" \
+  --p2p-addr ":${PORT2}" \
+  --debug-api-addr ":${PORT3}" \
+  --data-dir "/data/swarm/bee${PORT1}-data" \
+  --password "密码" > bee.log.${PORT1} 2>&1 &
+```
+
+##### 启动
+```
+./muti-node-start.sh 1
+./muti-node-start.sh 2
+./muti-node-start.sh 3
+./muti-node-start.sh 4
+......
 ```
 
 ## （6）本地实时出票信息查看
