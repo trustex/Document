@@ -114,6 +114,16 @@ bee start \
 http://swarm.xidusoft.com/swarm/bee/info/42.192.97.220/1635
 将42.192.97.220换成你的服务器IP地址即可。
 ```
-## （8）更多技术支持请加微信群。
+
+## （8）swap问题
+```
+--swap-endpoint 
+(1) 不能使用或出错的去infura网站申请免费的 https://infura.io/
+(2) 或自己搭建测试网
+
+./bin/geth --datadir /data/geth/goerli --goerli --rpc --rpcapi "admin,debug,eth,miner,net,personal,shh,txpool,web3" 2>>geth.log &
+
+```
+## （9）更多技术支持请加微信群。
 
 ###### 技术支持网站 https://xidusoft.com
