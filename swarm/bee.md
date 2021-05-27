@@ -119,7 +119,7 @@ http://swarm.xidusoft.com/swarm/bee/info/42.192.97.220/1635
 ```
 --swap-endpoint 
 (1) 不能使用或出错的去infura网站申请免费的 https://infura.io/
-(2) 或自己搭建测试网
+(2) 或自己搭建 Goerli测试网 (香港或海外，国内不行，同步数据在30G左右)
 
 ./bin/geth --datadir /data/geth/goerli --goerli --rpc --rpcapi "admin,debug,eth,miner,net,personal,shh,txpool,web3" 2>>geth.log &
 
