@@ -13,9 +13,12 @@ yum install -y jq nc
 ## （2）下载安装 bee-clef
 ```
 wget wget https://github.com/ethersphere/bee-clef/releases/download/v0.4.9/bee-clef_0.4.9_amd64.rpm
+
 #0.6.1
 #wget https://github.com/ethersphere/bee-clef/releases/download/v0.4.12/bee-clef_0.4.12_amd64.rpm
+
 rpm -i bee-clef_0.4.9_amd64.rpm
+
 ## 升级执行：rpm -Uvh bee-clef_0.4.12_amd64.rpm
 ```
 ### 启动：
@@ -25,9 +28,12 @@ systemctl start bee-clef
 ## （3）下载安装 bee
 ```
 wget https://github.com/ethersphere/bee/releases/download/v0.5.3/bee_0.5.3_amd64.rpm
+
 #0.6.1
 #wget https://github.com/ethersphere/bee/releases/download/v0.6.1/bee_0.6.1_amd64.rpm
+
 rpm -i bee_0.5.3_amd64.rpm
+
 ## 升级执行 rpm -Uvh bee_0.6.1_amd64.rpm
 ```
 
