@@ -85,7 +85,7 @@ bee start \
   --password "密码" > bee.log.${PORT1} 2>&1 &
 ```
 
-##### 启动
+##### 启动，需修改脚本密码
 ```
 ./muti-node-start.sh 1
 ./muti-node-start.sh 2
