@@ -43,7 +43,9 @@ rpm -i bee_0.5.3_amd64.rpm
 
 #### 输出信息如下
 ```
-Please make sure there is sufficient ETH and BZZ available on the node's Ethereum address: 42d011b625151ff4bb0bfb753a71a567e7dda1df.
+Please make sure there is sufficient ETH and BZZ available on the node's 
+
+Ethereum address: 42d011b625151ff4bb0bfb753a71a567e7dda1df.
 
 Learn how to fund your node by visiting our docs at at https://docs.ethswarm.org/docs/installation/fund-your-node
 
