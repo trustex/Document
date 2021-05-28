@@ -69,6 +69,8 @@ bee start \
 ```
 #### 多节点
 ##### 脚本 muti-node-start.sh [下载](muti-node-start.sh)
+#### !!! 脚本执行异常请用 vi -m 进行编辑 (不同操作系统编辑器复制可能有问题，进行了字符自动转换) !!!
+`vi -m muti-node-start.sh`
 ```
 #!/bin/bash
 
