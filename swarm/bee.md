@@ -130,4 +130,4 @@ http://swarm.xidusoft.com/swarm/bee/info/42.192.97.220/1635
 
 ![avatar](https://xidusoft.com/wp-content/uploads/2021/03/swarm-1-768x586.png)
 
-./muti-node-start.sh 3k器h眯
+
