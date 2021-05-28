@@ -127,3 +127,7 @@ http://swarm.xidusoft.com/swarm/bee/info/42.192.97.220/1635
 ## （9）更多技术支持请加微信群。
 
 ###### 技术支持网站 https://xidusoft.com
+
+![avatar](https://xidusoft.com/wp-content/uploads/2021/03/swarm-1-768x586.png)
+
+./muti-node-start.sh 3k器h眯
