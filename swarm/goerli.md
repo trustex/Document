@@ -1,6 +1,8 @@
 
 # Centos7下以太坊测试网goerli的RPC服务器搭建
 
+### 相关阅读 [Centos7 快速安装 Swarm Bee(含多节点启动脚本)](bee.md)
+
 ## (1) 硬件要求
 ```
 2核心4G内存，1M带宽，50G硬盘，有可能会内存不够闪退，可以加1G的swap交易分区
@@ -41,3 +43,9 @@ nohup ./bin/geth --datadir /data/geth/goerli \
 返回false为同步完成。
 
 ```
+
+## (6) 更多技术支持请加微信群。
+
+###### 技术支持网站 https://xidusoft.com
+
+![avatar](https://xidusoft.com/wp-content/uploads/2021/03/swarm-1-768x586.png)
