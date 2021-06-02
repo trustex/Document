@@ -14,7 +14,7 @@ wget https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.10.3-9913
 
 ```
 
-## 安装启动
+## (3) 安装启动
 ```
 mkdir /data/geth
 
@@ -32,9 +32,9 @@ nohup ./bin/geth --datadir /data/geth/goerli \
 
 ```
 
-## 防火墙开通8545对指定的节点IP可
+## (4) 防火墙开通8545对指定的节点IP可
 
-## 测试是否同步成功
+## (5) 测试是否同步成功
 ```
 ./bin/geth attach http://localhost:8545
 
