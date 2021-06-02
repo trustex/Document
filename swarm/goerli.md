@@ -1,16 +1,16 @@
 
 # Centos7下以太坊测试网goerli的RPC服务器搭建
 
-## 硬件要求
+## (1) 硬件要求
 ```
 2核心4G内存，1M带宽，50G硬盘，有可能会内存不够闪退，可以加1G的swap交易分区
 
 商业化应用建议 2核心8G以上，5M带宽。
 ```
-## bin包下载
+## (2) bin包下载
+### 官网下载指定系统的包 https://geth.ethereum.org/
 ```
 wget https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.10.3-991384a7.tar.gz
-
 
 ```
 
@@ -30,7 +30,14 @@ nohup ./bin/geth --datadir /data/geth/goerli \
 --rpcaddr 0.0.0.0 \
 --maxpeers 999 --maxpendpeers 999 > output.log 2>&1 &
 
-
 ```
 
 ## 防火墙开通8545对指定的节点IP可
+
+## 测试是否同步成功
+```
+./bin/geth attach http://localhost:8545
+
+返回false为同步完成。
+
+```
