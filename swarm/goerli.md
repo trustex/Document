@@ -1,7 +1,7 @@
 
 # Centos7下以太坊测试网goerli的RPC服务器搭建
 
-#### 相关阅读
+### 相关阅读
 ##### [Centos7 快速安装 Swarm Bee(含多节点启动脚本)](bee.md)
 ##### [Centos7 安装 Swarm Bee](https://xidusoft.com/?p=205)
 ##### [Swarm/Bee 相关资源链接](https://xidusoft.com/?p=46)
