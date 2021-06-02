@@ -1,6 +1,8 @@
 
 # Centos7 快速安装 Swarm Bee(含多节点启动脚本)
 
+### 相关阅读 [Centos7下以太坊测试网goerli的RPC服务器搭建)](goerli.md)
+
 ## （1）安装支持组件
 ```
 wget http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
