@@ -24,8 +24,7 @@
 
 ### （4）等以上DAI和ETH在小狐狸能看到余额后，就可以进入以下转换网址进行转换
 
-DAI 在主网与 xdai 网互转： https://dai-bridge.poa.network/
-
+###### DAI 在主网与 xdai 网互转： https://dai-bridge.poa.network/
 
 ![avatar](https://dai-bridge.poa.network/)
 
