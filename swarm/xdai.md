@@ -1,4 +1,5 @@
-# 一、准备工作
+# 如何获取100个XDAI，开启你的主网Swarm节点
+## 一、准备工作
 ### （1）火币或其他交易所账号一个
 
 ### （2）小狐狸添加XCHAIN链，如下
@@ -9,7 +10,7 @@
 ![avatar](https://xidusoft.com/wp-content/uploads/2021/06/dai-768x850.png)
 
 
-# 二、开始操作
+## 二、开始操作
 ### （1）从交易所用USDT购买110 DAI，约 1USDT一个；
 ![avatar](https://xidusoft.com/wp-content/uploads/2021/06/huobi-138x300.jpg)
 
