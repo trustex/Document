@@ -26,7 +26,7 @@
 
 DAI 在主网与 xdai 网互转： https://dai-bridge.poa.network/
 
-![avatar](https://dai-bridge.poa.network/)
+###### ![avatar](https://dai-bridge.poa.network/)
 
 ###### 上面选择ETH主网，下面选择xDai网络；
 ###### 中间输入你要转换的DAI数量；
